@@ -1,0 +1,41 @@
+REMARK  TITLE                                                                         
+REMARK  THE CONFORMER PDB IS 3.PDB                                                    
+REMARK  PLACEMENT ID IS 1 AND MUTATE ID IS 4 AND THE SCORE IS 3                       
+REMARK  THE EXP(SCORE) IS 20.085537 AND CUTOFF IS 0.771196                            
+REMARK   DATE:     2/ 2/24     13:40:44      CREATED BY USER: azamh                   
+ATOM      1  O1  ANC     1      23.602   4.810  69.669  1.00  0.00      ANC1
+ATOM      2  C1  ANC     1      24.326   4.822  68.680  1.00  0.00      ANC1
+ATOM      3  C2  ANC     1      24.265   6.056  67.803  1.00  0.00      ANC1
+ATOM      4  O2  ANC     1      24.586   7.190  68.572  1.00  0.00      ANC1
+ATOM      5  C3  ANC     1      22.827   6.216  67.280  1.00  0.00      ANC1
+ATOM      6  C4  ANC     1      25.198   5.981  66.622  1.00  0.00      ANC1
+ATOM      7  C5  ANC     1      26.077   4.828  66.380  1.00  0.00      ANC1
+ATOM      8  C6  ANC     1      26.134   3.730  67.172  1.00  0.00      ANC1
+ATOM      9  C7  ANC     1      27.107   2.606  66.808  1.00  0.00      ANC1
+ATOM     10  C8  ANC     1      28.078   2.851  65.673  1.00  0.00      ANC1
+ATOM     11  C9  ANC     1      29.218   3.842  65.846  1.00  0.00      ANC1
+ATOM     12  C10 ANC     1      30.127   3.993  64.614  1.00  0.00      ANC1
+ATOM     13  C11 ANC     1      29.414   4.648  63.429  1.00  0.00      ANC1
+ATOM     14  O3  ANC     1      27.976   2.188  64.651  1.00  0.00      ANC1
+ATOM     15  C12 ANC     1      25.218   3.642  68.387  1.00  0.00      ANC1
+ATOM     16  C13 ANC     1      25.113   2.586  69.260  1.00  0.00      ANC1
+ATOM     17  O4  ANC     1      25.764   1.400  69.232  1.00  0.00      ANC1
+ATOM     18  O5  ANC     1      25.242   6.918  65.837  1.00  0.00      ANC1
+ATOM     19  H1  ANC     1      25.514   7.076  68.911  1.00  0.00      ANC1
+ATOM     20  H2  ANC     1      22.535   5.338  66.664  1.00  0.00      ANC1
+ATOM     21  H3  ANC     1      22.735   7.132  66.657  1.00  0.00      ANC1
+ATOM     22  H4  ANC     1      22.109   6.313  68.123  1.00  0.00      ANC1
+ATOM     23  H5  ANC     1      26.690   4.912  65.492  1.00  0.00      ANC1
+ATOM     24  H6  ANC     1      26.485   1.725  66.541  1.00  0.00      ANC1
+ATOM     25  H7  ANC     1      27.751   2.387  67.683  1.00  0.00      ANC1
+ATOM     26  H8  ANC     1      29.839   3.480  66.692  1.00  0.00      ANC1
+ATOM     27  H9  ANC     1      28.837   4.846  66.124  1.00  0.00      ANC1
+ATOM     28  H10 ANC     1      30.534   3.002  64.316  1.00  0.00      ANC1
+ATOM     29  H11 ANC     1      30.983   4.645  64.893  1.00  0.00      ANC1
+ATOM     30  H12 ANC     1      28.560   4.036  63.077  1.00  0.00      ANC1
+ATOM     31  H13 ANC     1      30.128   4.763  62.587  1.00  0.00      ANC1
+ATOM     32  H14 ANC     1      29.041   5.654  63.715  1.00  0.00      ANC1
+ATOM     33  H15 ANC     1      24.423   2.665  70.093  1.00  0.00      ANC1
+ATOM     34  H16 ANC     1      26.375   1.057  68.582  1.00  0.00      ANC1
+TER      35      ANC      1
+END

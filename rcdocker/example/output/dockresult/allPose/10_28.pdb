@@ -1,0 +1,44 @@
+REMARK  TITLE                                                                         
+REMARK  THE CONFORMER ID IS 10                                                        
+REMARK  THE DOCK POSE ID IS 28                                                        
+REMARK  THE TOTAL ENERGY IS 34.761253                                                 
+REMARK  THE TOTAL GRID ENERGY IS -32.253944                                           
+REMARK  GRID VDW, ELEC AND HBOND ENERGY IS                                            
+REMARK  -29.029735, -3.224209 AND 0.000000                                            
+REMARK   DATE:     2/ 2/24     13:42:57      CREATED BY USER: azamh                   
+ATOM      1  O1  ANC     1      26.015   7.925  69.262  1.00  0.00      ANC1
+ATOM      2  C1  ANC     1      25.669   7.318  68.244  1.00  0.00      ANC1
+ATOM      3  C2  ANC     1      24.329   7.536  67.545  1.00  0.00      ANC1
+ATOM      4  O2  ANC     1      23.563   8.538  68.217  1.00  0.00      ANC1
+ATOM      5  C3  ANC     1      23.475   6.240  67.587  1.00  0.00      ANC1
+ATOM      6  C4  ANC     1      24.586   7.956  66.108  1.00  0.00      ANC1
+ATOM      7  C5  ANC     1      25.498   7.035  65.348  1.00  0.00      ANC1
+ATOM      8  C6  ANC     1      26.419   6.275  66.015  1.00  0.00      ANC1
+ATOM      9  C7  ANC     1      27.466   5.518  65.212  1.00  0.00      ANC1
+ATOM     10  C8  ANC     1      27.018   4.110  64.911  1.00  0.00      ANC1
+ATOM     11  C9  ANC     1      25.999   3.938  63.814  1.00  0.00      ANC1
+ATOM     12  C10 ANC     1      26.086   2.610  63.033  1.00  0.00      ANC1
+ATOM     13  C11 ANC     1      27.392   2.412  62.252  1.00  0.00      ANC1
+ATOM     14  O3  ANC     1      27.495   3.150  65.512  1.00  0.00      ANC1
+ATOM     15  C12 ANC     1      26.551   6.328  67.516  1.00  0.00      ANC1
+ATOM     16  C13 ANC     1      27.344   5.600  68.344  1.00  0.00      ANC1
+ATOM     17  O4  ANC     1      28.225   4.602  68.051  1.00  0.00      ANC1
+ATOM     18  O5  ANC     1      24.165   9.010  65.630  1.00  0.00      ANC1
+ATOM     19  H1  ANC     1      23.713   9.362  67.742  1.00  0.00      ANC1
+ATOM     20  H2  ANC     1      23.975   5.373  67.110  1.00  0.00      ANC1
+ATOM     21  H3  ANC     1      22.505   6.398  67.068  1.00  0.00      ANC1
+ATOM     22  H4  ANC     1      23.257   5.970  68.642  1.00  0.00      ANC1
+ATOM     23  H5  ANC     1      25.507   7.019  64.249  1.00  0.00      ANC1
+ATOM     24  H6  ANC     1      28.452   5.476  65.721  1.00  0.00      ANC1
+ATOM     25  H7  ANC     1      27.679   6.026  64.245  1.00  0.00      ANC1
+ATOM     26  H8  ANC     1      26.108   4.774  63.091  1.00  0.00      ANC1
+ATOM     27  H9  ANC     1      24.986   4.012  64.267  1.00  0.00      ANC1
+ATOM     28  H10 ANC     1      25.238   2.583  62.312  1.00  0.00      ANC1
+ATOM     29  H11 ANC     1      25.950   1.758  63.736  1.00  0.00      ANC1
+ATOM     30  H12 ANC     1      27.358   1.463  61.674  1.00  0.00      ANC1
+ATOM     31  H13 ANC     1      28.259   2.367  62.944  1.00  0.00      ANC1
+ATOM     32  H14 ANC     1      27.552   3.251  61.543  1.00  0.00      ANC1
+ATOM     33  H15 ANC     1      27.303   5.783  69.431  1.00  0.00      ANC1
+ATOM     34  H16 ANC     1      28.184   4.473  67.099  1.00  0.00      ANC1
+TER      35      ANC      1
+END

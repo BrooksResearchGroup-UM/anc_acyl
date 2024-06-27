@@ -1,0 +1,3301 @@
+  
+ CHARMM>     read rtf card -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/toppar/top_all36_prot.rtf
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/toppar/top_all36_prot.rtf::
+ MAINIO> Residue topology file being read from unit  91.
+ TITLE> *>>>>>>>>CHARMM36 ALL-HYDROGEN TOPOLOGY FILE FOR PROTEINS <<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>>> MAY 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *             PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read rtf card -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/toppar/top_all36_cgenff.rtf -
+ CHARMM>     append
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/toppar/top_all36_cgenff.rtf::
+ MAINIO> Residue topology file being read from unit  91.
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *          CGENFF: TOPOLOGY FOR THE CHARMM GENERAL FORCE FIELD V. 4.6          *
+ TITLE> *                    FOR SMALL MOLECULE DRUG DESIGN                            *
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *
+
+ DRUDES PARTICLES WILL BE GENERATED AUTOMATICALLY FOR ALL ATOMS WITH NON-ZERO ALPHA
+ Thole-type dipole screening, Slater-Delta shape {S(u) = 1 - (1+u/2)*exp(-u)}, default radius =  1.300000
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read param card -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/toppar/par_all36m_prot.prm -
+ CHARMM>     flex
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/toppar/par_all36m_prot.prm::
+
+          PARAMETER FILE BEING READ FROM UNIT 91
+ TITLE> *>>>> CHARMM36 ALL-HYDROGEN PARAMETER FILE FOR PROTEINS <<<<<<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>>> JAN. 2016 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *             PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read param card -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/toppar/par_all36_cgenff.prm -
+ CHARMM>     append -
+ CHARMM>     flex
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/toppar/par_all36_cgenff.prm::
+
+          PARAMETER FILE BEING READ FROM UNIT 91
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *         CGENFF: PARAMETERS FOR THE CHARMM GENERAL FORCE FIELD V. 4.6         *
+ TITLE> *                    FOR SMALL MOLECULE DRUG DESIGN                            *
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *  2017/8: IF PROTEIN, NUCLEIC ACID AND CARBOHYDRATE TOPOLOGY AND PARAMETER FILES
+ TITLE> *  ARE NOT READ PRIOR TO THE CGENFF FILES "WARNING: ATOMS IN NBFIX ' errors will
+ TITLE> *  BE ENCOUNTERED.  THESE CAN BE PASSED BY SETTING BOMLEV ( -2) PRIOR TO READING
+ TITLE> *  THIS FILE. IN ADDITION, WHEN GENERATING AROMATIC HALOGENS (CL, BR, I) WITH
+ TITLE> *  PRE C41B/C42A VERSIONS OF CHARMM "MISSING PARAMETER" ERRORS WILL BE
+ TITLE> *  ENCOUNTERED THAT ALSO REQUIRE SETTING BOMLEV ( -2).
+ TITLE> *
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -2.50000   2.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -1.25000   2.98000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OBL  CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3L CLGR   -3.60000   3.18000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OCL  CLGR   -2.50000   2.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OBL  BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3L BRGR   -3.65000   3.33000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OCL  BRGR   -1.25000   2.98000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN1  CLGR   -0.40000   3.88000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2  CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2U CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2G CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3  CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3A CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3G CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN4  CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1  CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1C CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN1  BRGR   -0.30000   4.05000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2  BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2U BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2G BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3  BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3A BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3G BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN4  BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1  BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1C BRGR   -0.27000   3.52000 DONT EXIST
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     stream /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.str
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.str::
+ OPNLGU> Unit 99 opened for READONLY access to /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.str
+
+                    INPUT STREAM SWITCHING TO UNIT    99
+ RDTITL> * TOPPAR STREAM FILE GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> * FOR USE WITH CGENFF VERSION 4.6
+ RDTITL> *
+ Parameter: IN1 <- "" <empty>
+  
+ CHARMM>     
+  
+ CHARMM>    read rtf card append
+ MAINIO> Residue topology file being read from unit  99.
+ RDTITL> * TOPOLOGIES GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+
+      ***** LEVEL  1 WARNING FROM <rtfrdr> *****
+      ***** No AUTOgen defaults specified in appended RTF. Potential conflict with prior RTF autogen options. Check.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+  
+ CHARMM>     
+  
+ CHARMM>    read param card flex append
+
+          PARAMETER FILE BEING READ FROM UNIT 99
+ RDTITL> * PARAMETERS GENERATED BY ANALOGY BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+ PARRDR> Error: Repeated BOND parameter (   198): CG2D  CG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   208): CG2D  OG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   212): CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated BOND parameter (   213): CG2D  CG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   214): CG2D  CG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   220): CG2D  CG2O is replaced
+ PARRDR> Error: Repeated BOND parameter (   225): CG2D  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   229): CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated BOND parameter (   237): CG2D  CG2O is replaced
+ PARRDR> Error: Repeated BOND parameter (   316): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   318): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   509): CG30  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   513): CG30  OG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   563): CG32  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   566): CG32  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   601): CG32  HGA2 is replaced
+ PARRDR> Error: Repeated BOND parameter (   646): CG33  HGA3 is replaced
+ PARRDR> Error: Repeated BOND parameter (   804): OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   494): CG2D  CG2D  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   497): CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   522): CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   526): CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   530): CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   532): CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   560): CG2O  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   579): CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   583): CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   590): CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   792): CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   797): CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   810): CG32  CG2O  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   812): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1328): CG33  CG30  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1565): CG2D  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1611): CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1614): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1686): CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1709): CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1746): CG33  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1792): HGA2  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1875): CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1880): CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1911): HGA3  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2677): CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2683): CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1128): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1129): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1128): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1129): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1135): HGA4  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1199): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1200): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1201): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1199): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1200): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1201): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1199): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1200): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1201): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1226): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1227): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1226): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1227): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1234): CG2D  CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1245): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1246): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1245): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1246): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1257): CG32  CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1267): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1268): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1269): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1267): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1268): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1269): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1267): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1268): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1269): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1279): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1280): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1281): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1279): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1280): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1281): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1279): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1280): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1281): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1420): CG2D  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1435): HGA4  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1490): CG2D  CG2D  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1644): CG2D  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1646): CG2D  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2616): CG32  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2639): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4926): OG31  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4956): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4957): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4958): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4956): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4957): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4958): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4956): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4957): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4958): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5723): CG2O  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5813): CG33  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5855): HGA2  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5925): CG32  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5954): HGA2  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated IMPH parameter (   158): CG2O  CG32  CG32  OG2D is replaced
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    RETURN
+ VCLOSE: Closing unit   99 with status "KEEP"
+
+                    RETURNING TO INPUT STREAM    90
+  
+  
+ CHARMM>     stream /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester.str
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester.str::
+ OPNLGU> Unit 99 opened for READONLY access to /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester.str
+
+                    INPUT STREAM SWITCHING TO UNIT    99
+ RDTITL> * TOPPAR STREAM FILE GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> * FOR USE WITH CGENFF VERSION 4.6
+ RDTITL> *
+ Parameter: IN1 <- "" <empty>
+  
+ CHARMM>     
+  
+ CHARMM>    read rtf card append
+ MAINIO> Residue topology file being read from unit  99.
+ RDTITL> * TOPOLOGIES GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+
+      ***** LEVEL  1 WARNING FROM <rtfrdr> *****
+      ***** No AUTOgen defaults specified in appended RTF. Potential conflict with prior RTF autogen options. Check.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+  
+ CHARMM>     
+  
+ CHARMM>    read param card flex append
+
+          PARAMETER FILE BEING READ FROM UNIT 99
+ RDTITL> * PARAMETERS GENERATED BY ANALOGY BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+ PARRDR> Error: Repeated BOND parameter (   263): CG2O  CG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   265): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   273): CG2O  NG2S is replaced
+ PARRDR> Error: Repeated BOND parameter (   275): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   280): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   282): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   286): CG2O  SG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   316): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   318): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   507): CG30  CG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   508): CG30  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   509): CG30  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   537): CG31  OG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   543): CG31  HGA1 is replaced
+ PARRDR> Error: Repeated BOND parameter (   563): CG32  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   566): CG32  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   577): CG32  NG2S is replaced
+ PARRDR> Error: Repeated BOND parameter (   585): CG32  OG30 is replaced
+ PARRDR> Error: Repeated BOND parameter (   594): CG32  SG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   601): CG32  HGA2 is replaced
+ PARRDR> Error: Repeated BOND parameter (   646): CG33  HGA3 is replaced
+ PARRDR> Error: Repeated BOND parameter (   754): NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated BOND parameter (   782): OG2P  PG0  is replaced
+ PARRDR> Error: Repeated BOND parameter (   791): OG30  PG0  is replaced
+ PARRDR> Error: Repeated BOND parameter (   799): OG31  PG0  is replaced
+ PARRDR> Error: Repeated BOND parameter (   804): OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   682): CG31  CG2O  NG2S is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   684): CG31  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   690): CG32  CG2O  NG2S is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   692): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   716): NG2S  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   733): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   737): CG32  CG2O  SG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   745): OG2D  CG2O  SG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   810): CG32  CG2O  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   812): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1318): CG31  CG30  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1319): CG31  CG30  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1322): CG32  CG30  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1324): CG33  CG30  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1347): CG2O  CG31  CG30 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1353): CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1355): CG2O  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1406): CG30  CG31  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1407): CG30  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1474): OG31  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1575): CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1582): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1594): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1611): CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1614): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1654): CG30  CG32  OG30 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1656): CG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1684): CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1686): CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1693): CG32  CG32  NG2S is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1704): CG32  CG32  SG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1709): CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1746): CG33  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1762): NG2S  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1771): OG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1785): SG31  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1792): HGA2  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1875): CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1880): CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1911): HGA3  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2453): CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2458): CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2471): CG32  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2661): CG32  OG30  PG0  is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2684): CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2693): PG0   OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2726): OG2P  PG0   OG30 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2728): OG2P  PG0   OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2732): OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2739): OG31  PG0   OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2801): CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1885): NG2S  CG2O  CG31  CG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1892): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1893): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1892): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1893): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1895): NG2S  CG2O  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1907): OG2D  CG2O  CG31  CG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1914): OG2D  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1916): OG2D  CG2O  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1950): NG2S  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1960): NG2S  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1980): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1990): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2194): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2195): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2194): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2195): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2198): CG31  CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2213): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2214): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2213): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2214): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2221): CG32  CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2271): OG2D  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2276): OG2D  CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2348): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2380): SG31  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2441): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2442): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2443): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2441): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2442): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2443): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2441): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2442): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2443): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2616): CG32  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2639): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4877): CG32  CG30  CG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4880): CG32  CG30  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4881): CG32  CG30  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4882): CG33  CG30  CG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4886): CG33  CG30  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4887): CG33  CG30  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4899): CG31  CG30  CG32  OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4900): CG31  CG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4908): CG33  CG30  CG32  OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4912): CG33  CG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4920): CG31  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4921): CG32  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4922): CG33  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5407): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5408): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5409): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5407): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5408): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5409): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5407): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5408): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5409): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5428): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5429): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5430): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5428): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5429): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5430): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5428): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5429): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5430): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5454): HGA1  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5689): CG2O  CG32  CG32  NG2S is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5690): CG2O  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5723): CG2O  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5789): CG32  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5813): CG33  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5822): NG2S  CG32  CG32  SG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5826): NG2S  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5850): SG31  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5855): HGA2  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5925): CG32  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5954): HGA2  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6160): CG32  CG32  NG2S  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6165): CG32  CG32  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6174): HGA2  CG32  NG2S  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6177): HGA2  CG32  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6407): HGA2  CG32  OG30  PG0  is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6541): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6542): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6541): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6542): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6594): HGA2  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8005): CG32  OG30  PG0   OG2P is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8009): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8010): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8009): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8010): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8128): HGP1  OG31  PG0   OG2P is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8129): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8130): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8129): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8130): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8133): HGP1  OG31  PG0   OG31 is replaced
+ PARRDR> Error: Repeated IMPH parameter (    86): CG2O  CG31  NG2S  OG2D is replaced
+ PARRDR> Error: Repeated IMPH parameter (    91): CG2O  CG32  NG2S  OG2D is replaced
+ PARRDR> Error: Repeated IMPH parameter (   119): CG2O  CG32  OG2D  SG31 is replaced
+ PARRDR> Error: Repeated IMPH parameter (   158): CG2O  CG32  CG32  OG2D is replaced
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    RETURN
+ VCLOSE: Closing unit   99 with status "KEEP"
+
+                    RETURNING TO INPUT STREAM    90
+  
+  
+ CHARMM>     read sequence pdb -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb::
+ MAINIO> Sequence information being read from unit  91.
+ TITLE>   TITLE
+ TITLE>   MOVE LIGAND TO THE CENTER OF BINDING POCKET
+ TITLE>    DATE:     2/ 2/24     18:57:13      CREATED BY USER: AZAMH
+ TITLE>  *
+
+          RESIDUE SEQUENCE --     1 RESIDUES
+          ANC 
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+ NO PATCHING WILL BE DONE ON THE FIRST RESIDUE
+ NO PATCHING WILL BE DONE ON THE LAST  RESIDUE
+ AUTGEN: Autogenerating specified angles and dihedrals.
+ GENPSF> Segment   1 has been generated. Its identifier is LIGA.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        1   Number of residues   =        1
+         Number of atoms         =       34   Number of groups     =        1
+         Number of bonds         =       34   Number of angles     =       59
+         Number of dihedrals     =       82   Number of impropers  =        4
+         Number of cross-terms   =        0   Number of autogens   =        0
+         Number of HB acceptors  =        0   Number of HB donors  =        0
+         Number of NB exclusions =        0   Total charge =    0.00000
+ QXFORM> Expanded format used.
+         More than 4 character atom type used.
+  
+ CHARMM>     read coor pdb -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb -
+ CHARMM>     resid
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 91
+ TITLE>   TITLE
+ TITLE>   MOVE LIGAND TO THE CENTER OF BINDING POCKET
+ TITLE>    DATE:     2/ 2/24     18:57:13      CREATED BY USER: AZAMH
+ TITLE>  *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     write name /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb -
+ CHARMM>     coor pdb -
+ CHARMM>     sele GPLNNNLDMRABZYRCEEVC end
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb::
+ RDTITL> * TITLE
+ RDTITL> * MOVE LIGAND TO THE CENTER OF BINDING POCKET
+ RDTITL> *
+  Write CHARMM-pdb format
+ SELRPN>     34 atoms have been selected out of     34
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+
+ Message from MAPIC: Atom numbers are changed.
+
+ Message from MAPIC:          1 residues deleted.
+
+ Message from MAPIC:          1 segments deleted.
+ DELTIC:        34 bonds deleted
+ DELTIC:        59 angles deleted
+ DELTIC:        82 dihedrals deleted
+ DELTIC:         4 improper dihedrals deleted
+  
+ CHARMM>     read psf card -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.psf -
+ CHARMM>     append
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.psf::
+ MAINIO> Protein structure file being appended from unit  91.
+ psf_read_formatted: Reading PSF in the expanded format.
+ TITLE>  * EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>  *  DATE:    11/ 1/23     14:57:17      CREATED BY USER: azamh
+ TITLE>  *
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        2   Number of residues   =      463
+         Number of atoms         =     7202   Number of groups     =     2086
+         Number of bonds         =     7293   Number of angles     =    13246
+         Number of dihedrals     =    19445   Number of impropers  =     1281
+         Number of cross-terms   =      462   Number of autogens   =        0
+         Number of HB acceptors  =      653   Number of HB donors  =      769
+         Number of NB exclusions =        0   Total charge =    1.00000
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read coor pdb -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.pdb -
+ CHARMM>     resid
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 91
+ TITLE>   EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>    DATE:    11/ 1/23     14:57:36      CREATED BY USER: AZAMH
+ TITLE>  *
+Num of GPU Devices: 1
+The device 0 is used. 
+  GPU Devices Name: NVIDIA GeForce GTX 980
+  total global devices memory: 4037 MB
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+
+ Message from MAPIC: Atom numbers are changed.
+
+ Message from MAPIC:         21 residues deleted.
+
+ Message from MAPIC:          1 segments deleted.
+ DELTIC:       412 bonds deleted
+ DELTIC:       768 angles deleted
+ DELTIC:      1186 dihedrals deleted
+ DELTIC:       100 improper dihedrals deleted
+ DELTIC:        49 crossterm maps deleted
+ DELTIC:        38 donors deleted
+ DELTIC:        32 acceptors deleted
+  
+ CHARMM>     write name receptor_grid.psf -
+ CHARMM>     psf card
+ VOPEN> Attempting to open::receptor_grid.psf::
+ RDTITL>  
+ RDTITL> No title read.
+ VCLOSE: Closing unit   91 with status "KEEP"
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     write name receptor_grid.pdb -
+ CHARMM>     coor pdb
+ VOPEN> Attempting to open::receptor_grid.pdb::
+ RDTITL>  
+ RDTITL> No title read.
+  Write CHARMM-pdb format
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+
+ Message from MAPIC: Atom numbers are changed.
+
+ Message from MAPIC:        442 residues deleted.
+
+ Message from MAPIC:          1 segments deleted.
+ DELTIC:      6881 bonds deleted
+ DELTIC:     12478 angles deleted
+ DELTIC:     18259 dihedrals deleted
+ DELTIC:      1181 improper dihedrals deleted
+ DELTIC:       413 crossterm maps deleted
+ DELTIC:       731 donors deleted
+ DELTIC:       621 acceptors deleted
+  
+ CHARMM>     read psf card -
+ CHARMM>     name receptor_grid.psf
+ VOPEN> Attempting to open::receptor_grid.psf::
+ MAINIO> Protein structure file being read from unit  91.
+ psf_read_formatted: Reading PSF in the expanded format.
+ TITLE>  * EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>  *  DATE:     2/ 2/24     19: 0: 1      CREATED BY USER: azamh
+ TITLE>  *
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        1   Number of residues   =      442
+         Number of atoms         =     6811   Number of groups     =     1990
+         Number of bonds         =     6881   Number of angles     =    12478
+         Number of dihedrals     =    18259   Number of impropers  =     1181
+         Number of cross-terms   =      413   Number of autogens   =        0
+         Number of HB acceptors  =      621   Number of HB donors  =      731
+         Number of NB exclusions =        0   Total charge =    1.00000
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read coor pdb -
+ CHARMM>     name receptor_grid.pdb -
+ CHARMM>     resid
+ VOPEN> Attempting to open::receptor_grid.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 91
+ TITLE>   EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>    DATE:     2/ 2/24     19: 0: 1      CREATED BY USER: AZAMH
+ TITLE>  *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+
+      ***** LEVEL  1 WARNING FROM <BILDC> *****
+      ***** BILDC called with a null IC table
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB and CTOFNB are too close for efficient heuristic update.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+<FFTDOCK> - num of probes read:    26
+  Probe       Radii
+      1    0.225000
+      2    0.450000
+      3    0.700000
+      4    0.900000
+      5    1.100000
+      6    1.260000
+      7    1.300000
+      8    1.340000
+      9    1.468000
+     10    1.563000
+     11    1.600000
+     12    1.650000
+     13    1.700000
+     14    1.750000
+     15    1.765000
+     16    1.800000
+     17    1.850000
+     18    1.900000
+     19    2.000000
+     20    2.050000
+     21    2.090000
+     22    2.150000
+     23    2.200000
+     24    2.240000
+     25    2.275000
+     26    2.300000
+Grid potentials written to binary file on unit   1
+Num of GPU Devices: 1
+The device 0 is used. 
+  GPU Devices Name: NVIDIA GeForce GTX 980
+  total global devices memory: 4037 MB
+Num of GPU Devices: 1
+The device 0 is used. 
+  GPU Devices Name: NVIDIA GeForce GTX 980
+  total global devices memory: 4037 MB
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 1)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 2)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 3)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 4)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 5)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 6)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 7)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 8)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 9)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 10)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 11)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 12)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 13)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 14)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 15)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 16)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 17)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 18)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 19)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 20)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 21)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 22)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 23)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 24)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 25)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 26)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 27)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 28)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 29)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 30)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 31)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 32)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 33)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 34)
+ Number of rotatable bonds: 0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB and CTOFNB are too close for efficient heuristic update.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+<FFTDOCK> - num of probes read:    26
+  Probe       Radii
+      1    0.225000
+      2    0.450000
+      3    0.700000
+      4    0.900000
+      5    1.100000
+      6    1.260000
+      7    1.300000
+      8    1.340000
+      9    1.468000
+     10    1.563000
+     11    1.600000
+     12    1.650000
+     13    1.700000
+     14    1.750000
+     15    1.765000
+     16    1.800000
+     17    1.850000
+     18    1.900000
+     19    2.000000
+     20    2.050000
+     21    2.090000
+     22    2.150000
+     23    2.200000
+     24    2.240000
+     25    2.275000
+     26    2.300000
+Grid potentials written to binary file on unit   1
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB and CTOFNB are too close for efficient heuristic update.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+<FFTDOCK> - num of probes read:    26
+  Probe       Radii
+      1    0.225000
+      2    0.450000
+      3    0.700000
+      4    0.900000
+      5    1.100000
+      6    1.260000
+      7    1.300000
+      8    1.340000
+      9    1.468000
+     10    1.563000
+     11    1.600000
+     12    1.650000
+     13    1.700000
+     14    1.750000
+     15    1.765000
+     16    1.800000
+     17    1.850000
+     18    1.900000
+     19    2.000000
+     20    2.050000
+     21    2.090000
+     22    2.150000
+     23    2.200000
+     24    2.240000
+     25    2.275000
+     26    2.300000
+Grid potentials written to binary file on unit   1
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ Number of particles      1545      1545
+ Number of vdw grids =   26
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 1)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 2)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 3)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 4)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 5)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 6)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 7)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 8)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 9)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 10)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 11)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 12)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 13)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 14)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 15)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 16)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 17)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 18)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 19)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 20)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 21)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 22)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 23)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 24)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 25)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 26)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 27)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 28)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 29)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 30)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 31)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 32)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 33)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 34)
+ Number of rotatable bonds: 0
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 1)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 2)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 3)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 4)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 5)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 6)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 7)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 8)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 9)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 10)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 11)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 12)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 13)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 14)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 15)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 16)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 17)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 18)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 19)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 20)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 21)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 22)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 23)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 24)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 25)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 26)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 27)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 28)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 29)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 30)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 31)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 32)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 33)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 34)
+ Number of rotatable bonds: 0
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 1)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 2)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 3)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 4)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 5)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 6)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 7)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 8)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 9)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 10)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 11)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 12)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 13)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 14)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 15)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 16)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 17)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 18)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 19)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 20)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 21)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 22)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 23)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 24)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 25)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 26)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 27)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 28)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 29)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 30)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 31)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 32)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 33)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 34)
+ Number of rotatable bonds: 0
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 1)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 2)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 3)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 4)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 5)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 6)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 7)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 8)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 9)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 10)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 11)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 12)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 13)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 14)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 15)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 16)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 17)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 18)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 19)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 20)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 21)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 22)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 23)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 24)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 25)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 26)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 27)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 28)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 29)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 30)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 31)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 32)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 33)
+==============================
+*** Open Babel Warning  in parseAtomRecord
+  WARNING: Problems reading a PDB file
+  Problems reading a HETATM or ATOM record.
+  According to the PDB specification,
+  columns 77-78 should contain the element symbol of an atom.
+  but OpenBabel found '  ' (atom 34)
+ Number of rotatable bonds: 0
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.97 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.95 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.10 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.99 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.99 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.03 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.07 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.25 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.27 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.27 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.16 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.19 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.21 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.21 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.44 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.33 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.33 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.05 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.99 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.94 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.82 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.80 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.80 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.66 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+/export/apps/CentOS7/mmtsb/src/feig/toolset/bin/kclust -pdb -centroid -cdist -radius 1 -iterate -maxerr 0.01 -mode rmsd -heavy
+WARNING: reached 2 clusters
+/export/apps/CentOS7/mmtsb/src/feig/toolset/bin/kclust -pdb -centroid -cdist -radius 1.5 -iterate -maxerr 0.01 -mode rmsd -heavy
+WARNING: reached 2 clusters
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.74 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.79 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.81 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.81 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.00 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.09 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.09 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.14 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.23 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.29 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.31 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.32 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.88 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.21 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.21 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.88 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.88 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.88 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.88 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.88 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.88 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.89 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.89 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.89 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.99 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.00 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.07 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.07 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.43 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.41 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.41 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.41 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.28 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.25 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.25 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.00 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.20 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.21 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.23 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.24 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.14 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.18 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.18 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.41 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.42 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.42 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.43 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.74 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.68 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.68 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.85 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.92 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.96 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.19 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.24 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.24 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.22 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.10 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.05 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.06 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.85 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+/export/apps/CentOS7/mmtsb/src/feig/toolset/bin/kclust -pdb -centroid -cdist -radius 1 -iterate -maxerr 0.01 -mode rmsd -heavy
+WARNING: reached 2 clusters
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.90 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.89 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.91 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.92 Angstroms and starts with atom:     325
+   Please check group boundary definitions.
+
+ Message from MAPIC: Atom numbers are changed.
+
+ Message from MAPIC:         22 residues deleted.
+
+ Message from MAPIC:          3 segments deleted.
+ DELTIC:       414 bonds deleted
+ DELTIC:       699 angles deleted
+ DELTIC:       942 dihedrals deleted
+ DELTIC:        40 improper dihedrals deleted
+ DELTIC:         1 crossterm maps deleted
+ DELTIC:        38 donors deleted
+ DELTIC:        32 acceptors deleted
+  
+ CHARMM>     read psf card -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.psf -
+ CHARMM>     append
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.psf::
+ MAINIO> Protein structure file being appended from unit  91.
+ psf_read_formatted: Reading PSF in the expanded format.
+ TITLE>  * EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>  *  DATE:    11/ 1/23     14:57:17      CREATED BY USER: azamh
+ TITLE>  *
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        2   Number of residues   =      463
+         Number of atoms         =     7202   Number of groups     =     2086
+         Number of bonds         =     7293   Number of angles     =    13246
+         Number of dihedrals     =    19445   Number of impropers  =     1281
+         Number of cross-terms   =      462   Number of autogens   =        0
+         Number of HB acceptors  =      653   Number of HB donors  =      769
+         Number of NB exclusions =        0   Total charge =    1.00000
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read coor pdb -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.pdb -
+ CHARMM>     resid
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 91
+ TITLE>   EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>    DATE:    11/ 1/23     14:57:36      CREATED BY USER: AZAMH
+ TITLE>  *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read sequence pdb -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb::
+ MAINIO> Sequence information being read from unit  91.
+ TITLE>   TITLE
+ TITLE>   MOVE LIGAND TO THE CENTER OF BINDING POCKET
+ TITLE>    DATE:     2/ 2/24     18:59:52      CREATED BY USER: AZAMH
+ TITLE>  *
+
+          RESIDUE SEQUENCE --     1 RESIDUES
+          ANC     
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+ NO PATCHING WILL BE DONE ON THE FIRST RESIDUE
+ NO PATCHING WILL BE DONE ON THE LAST  RESIDUE
+ AUTGEN: Autogenerating specified angles and dihedrals.
+ GENPSF> Segment   3 has been generated. Its identifier is LIGA.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        3   Number of residues   =      464
+         Number of atoms         =     7236   Number of groups     =     2087
+         Number of bonds         =     7327   Number of angles     =    13305
+Arguments:
+ligPDB /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb
+ligandrtf /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.str
+receptorPDB /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.pdb
+receptorPSF /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester/caze_5cthioester.psf
+flexchain_csv /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/flexres/caze_5cthioester_anc_substrate.csv
+C5_rtf /home/azamh/acyl/anc_acyl/add_5cthioester/5cthioester.str
+C5_segname 5CT1
+workdir /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/example/output
+num 5
+copy 1
+xcen 26.711349487304688
+ycen 4.538999557495117
+zcen 65.70699691772461
+maxlen 40.0
+topdir /home/azamh/acyl/anc_acyl/toppar
+CHARMM_LIB_DIR /home/azamh/charmm/08302023/build_pyCHARMM/install/lib
+   res_id seg_id
+0     388   PROA
+1     140   PROA
+2     413   PROA
+3     419   PROA
+4     422   PROA
+5     424   PROA
+6     426   PROA
+7     172   PROA
+8      44   PROA
+9      45   PROA
+10     46   PROA
+11    176   PROA
+12    302   PROA
+13    177   PROA
+14    180   PROA
+15    320   PROA
+16    322   PROA
+17    244   PROA
+18    375   PROA
+19    376   PROA
+20      1   5CT1
+A selection has been stored as GPLNNNLDMRABZYRCEEVC
+Use GPU to generate grids
+Use default non-bond set up
+Grid generation for grid-emax-0.6-mine--0.4-maxe-0.4.bin is  True
+Use GPU to generate grids
+Use default non-bond set up
+Grid generation for grid-emax-3-mine--30-maxe-30.bin is  True
+Use GPU to generate grids
+Use default non-bond set up
+Grid generation for grid-emax-100-mine--100-maxe-100.bin is  True
+Number of protein backbone atoms: 121
+Number of prosthetic group atoms: 67
+Number of prosthetic group backbone atoms: 24
+Total number of backbone atoms: 145
+A selection has been stored as QPBZAMHUSHYWKZGPELYW
+Specific atoms are considered flexible particles
+OMMD set up for flexible docking
+Flexible docking for the first generation
+Flexible receptor + ligand conformer  1
+A selection has been stored as YKCGARTSDHJXFARPJZYL
+Conformer  1  Placement  1
+Grid is applied to specified atoms
+Grid is applied to specified atoms
+Flexible receptor + ligand placement  1
+Flexible receptor + ligand conformer  2
+A selection has been stored as MEOKGYBKHNTRVEUWHHFQ
+Conformer  2  Placement  1
+Grid is applied to specified atoms
+Grid is applied to specified atoms
+Flexible receptor + ligand placement  2
+Flexible receptor + ligand conformer  3
+A selection has been stored as ZHWFHGIZMPYEFELHIZDC
+Conformer  3  Placement  1
+Grid is applied to specified atoms
+Grid is applied to specified atoms
+Flexible receptor + ligand placement  3
+Flexible receptor + ligand conformer  4
+A selection has been stored as HTYIVJTKLAFQSDGRKYUF
+Conformer  4  Placement  1
+Grid is applied to specified atoms
+Grid is applied to specified atoms
+Flexible receptor + ligand placement  4
+Flexible receptor + ligand conformer  5
+A selection has been stored as SEXMHMLLIWGNFCFGGGRX
+Conformer  5  Placement  1
+Grid is applied to specified atoms
+Grid is applied to specified atoms
+Flexible receptor + ligand placement  5
+Set OMMD ligand copy 1
+Set OMMD ligand copy 2
+Set OMMD ligand copy 3
+Set OMMD ligand copy 4
+Set OMMD ligand copy 5
+Grid is applied to specified atoms
+Grid minimize OMMD ligand copy 1
+A selection has been stored as EBVCRMWOPGJEPFTOEXXS
+A selection has been stored as QNOOSJBFTLTVXTMCVWZV
+A selection has been stored as FDFSXCKNHRTLWHJGXGBU
+Grid minimize OMMD ligand copy 2
+A selection has been stored as SMZZYFFIYNJOKBMGKOOQ
+A selection has been stored as ROOBZSYCICJGHGLSEUAY
+A selection has been stored as KYFJJJSIIEIZPPZYOHSX
+Grid minimize OMMD ligand copy 3
+A selection has been stored as FJIUZOFVJWQJWZBEXBZV
+A selection has been stored as CNGYGRSAZQFFMHWQYCMB
+A selection has been stored as PZTRQVHKTQIAWSWIBONL
+Grid minimize OMMD ligand copy 4
+A selection has been stored as WJXUTOUISEYPIUEJTANZ
+A selection has been stored as SNJYXDYADEEABNATRCVT
+A selection has been stored as FSEBQCJEHBOHUBKUSLKT
+Grid minimize OMMD ligand copy 5
+A selection has been stored as LSFRSSVOKGXJZGYQZGCC
+A selection has been stored as ZOQEZBSNJQTAYPLWRSSG
+A selection has been stored as ILYYXLMOHDJLCRQOAURW
+Flexible docking for generation: 2
+Flexible receptor + ligand placement  1
+Flexible receptor + ligand placement  2
+Flexible receptor + ligand placement  3
+Flexible receptor + ligand placement  4
+Grid is applied to specified atoms
+Grid is applied to specified atoms
+Flexible receptor + ligand placement  5
+Set OMMD ligand copy 1
+Set OMMD ligand copy 2
+Set OMMD ligand copy 3
+Set OMMD ligand copy 4
+Set OMMD ligand copy 5
+Grid is applied to specified atoms
+Grid minimize OMMD ligand copy 1
+A selection has been stored as EKBWZRBDKQNJJGZFHWTK
+A selection has been stored as SGYQQDKDFZXZRNPHWOZA
+A selection has been stored as TLHOKFAEWJSKKFYTMNFP
+Grid minimize OMMD ligand copy 2
+A selection has been stored as YGIJTEZPOPXDCKTNIMSM
+A selection has been stored as ITETTEKXQFQPBNIPGGJG
+A selection has been stored as WCPSFYMNLPZNTBOPYUCQ
+Grid minimize OMMD ligand copy 3
+A selection has been stored as KICZTDVFSIUKKWYJYILA
+A selection has been stored as WGKJONNXUPVQTPTBRGSG
+A selection has been stored as JHLXVLNABHKLWHAGAOYZ
+Grid minimize OMMD ligand copy 4
+A selection has been stored as QDSOLDJGYPENRDZHGMGM
+A selection has been stored as FZRUGMIGIATPUZPXCZCU
+A selection has been stored as WNLQVYCMZZRZQQXNZQVH
+Grid minimize OMMD ligand copy 5
+A selection has been stored as FQAZEMRVIKNXILTSXGHE
+A selection has been stored as DHQBPQPZURORVJNZFWUI
+A selection has been stored as UNMVOQMZOROETDGXEDRV
+Calculate conformational entropy contribution from amino acid  THR
+Calculate conformational entropy contribution from amino acid  LEU
+Calculate conformational entropy contribution from amino acid  ARG
+Calculate conformational entropy contribution from amino acid  ILE
+Calculate conformational entropy contribution from amino acid  SER
+Calculate conformational entropy contribution from amino acid  THR
+Calculate conformational entropy contribution from amino acid  TYR
+Calculate conformational entropy contribution from amino acid  HSD
+Calculate conformational entropy contribution from amino acid  THR
+Calculate conformational entropy contribution from amino acid  ILE
+Calculate conformational entropy contribution from amino acid  ASP
+Calculate conformational entropy contribution from amino acid  ASN
+Calculate conformational entropy contribution from amino acid  VAL
+Calculate conformational entropy contribution from amino acid  MET
+Calculate conformational entropy contribution from amino acid  TRP
+Calculate conformational entropy contribution from amino acid  TYR
+Calculate conformational entropy contribution from amino acid  ASN
+A selection has been stored as PMLIHRNZZLBJYOQBZLYU
+A selection has been stored as ABOHUOVIUWTIWVFDRKYT
+A selection has been stored as TJUTZGSTPBQMKAYVLKQK
+A selection has been stored as AHCXOBYNLZXYGBHPORLS
+         Number of dihedrals     =    19527   Number of impropers  =     1285
+         Number of cross-terms   =      462   Number of autogens   =        0
+         Number of HB acceptors  =      653   Number of HB donors  =      769
+         Number of NB exclusions =        0   Total charge =    1.00000
+  
+ CHARMM>     read coor pdb -
+ CHARMM>     name /home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb -
+ CHARMM>     resid
+ VOPEN> Attempting to open::/home/azamh/acyl/anc_acyl/fcdocker_flexible_5cthioester/anc_substrate.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 91
+ TITLE>   TITLE
+ TITLE>   MOVE LIGAND TO THE CENTER OF BINDING POCKET
+ TITLE>    DATE:     2/ 2/24     18:59:52      CREATED BY USER: AZAMH
+ TITLE>  *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.06 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.18 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.18 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.27 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.22 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.18 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.04 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.06 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.92 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.95 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.95 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.90 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.87 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.83 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.81 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.91 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       15.97 Angstroms and starts with atom:    7136
+   Please check group boundary definitions.
+$$$$$$  New timer profile $$$$$
+      NBONDS                          2.26 Other:            0.00
+   List time                       2.26 Other:            0.00
+         Electrostatic & VDW            15.19 Other:            0.00
+      Nonbond force                  15.22 Other:            0.03
+         Bond energy                     0.06 Other:            0.00
+         Angle energy                    0.45 Other:            0.00
+         Dihedral energy                 0.77 Other:            0.00
+         Restraints energy               0.01 Other:            0.00
+      INTRNL energy                   1.38 Other:            0.09
+   Energy time                    16.92 Other:            0.33
+ Total time                    207.80 Other:          188.63
+
+                    NORMAL TERMINATION BY NORMAL STOP
+                    MOST SEVERE WARNING WAS AT LEVEL  0
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:     3.46  MINUTES 
+                         CPU TIME:     3.15  MINUTES 

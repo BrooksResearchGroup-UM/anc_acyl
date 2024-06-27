@@ -1,0 +1,44 @@
+REMARK  TITLE                                                                         
+REMARK  THE DOCKED POSE ID IS 85                                                      
+REMARK  THE CLUSTER ID IS 12                                                          
+REMARK  THE TOTAL ENERGY IS -17.105732                                                
+REMARK  THE VDW ENERGY IS -255.372330                                                 
+REMARK  THE ELEC ENERGY IS -135.807759                                                
+REMARK  THE ENTROPY IS -9.688949                                                      
+REMARK   DATE:    11/12/23     19:25:12      CREATED BY USER: azamh                   
+ATOM   7110  O1  ANC     1      27.521   2.910  60.789  1.00  0.00      LIGA
+ATOM   7111  C1  ANC     1      27.641   2.494  61.944  1.00  0.00      LIGA
+ATOM   7112  C2  ANC     1      26.618   1.565  62.587  1.00  0.00      LIGA
+ATOM   7113  O2  ANC     1      25.873   2.203  63.633  1.00  0.00      LIGA
+ATOM   7114  C3  ANC     1      25.598   1.144  61.500  1.00  0.00      LIGA
+ATOM   7115  C4  ANC     1      27.356   0.316  63.061  1.00  0.00      LIGA
+ATOM   7116  C5  ANC     1      28.397   0.642  64.095  1.00  0.00      LIGA
+ATOM   7117  C6  ANC     1      29.018   1.859  64.028  1.00  0.00      LIGA
+ATOM   7118  C7  ANC     1      29.941   2.321  65.150  1.00  0.00      LIGA
+ATOM   7119  C8  ANC     1      29.131   2.884  66.296  1.00  0.00      LIGA
+ATOM   7120  C9  ANC     1      29.924   3.594  67.361  1.00  0.00      LIGA
+ATOM   7121  C10 ANC     1      29.093   4.261  68.477  1.00  0.00      LIGA
+ATOM   7122  C11 ANC     1      28.163   5.386  68.006  1.00  0.00      LIGA
+ATOM   7123  O3  ANC     1      27.910   2.749  66.376  1.00  0.00      LIGA
+ATOM   7124  C12 ANC     1      28.875   2.726  62.807  1.00  0.00      LIGA
+ATOM   7125  C13 ANC     1      29.757   3.681  62.414  1.00  0.00      LIGA
+ATOM   7126  O4  ANC     1      29.691   4.481  61.310  1.00  0.00      LIGA
+ATOM   7127  O5  ANC     1      27.214  -0.795  62.565  1.00  0.00      LIGA
+ATOM   7128  H1  ANC     1      26.454   2.255  64.399  1.00  0.00      LIGA
+ATOM   7129  H2  ANC     1      25.044   2.033  61.128  1.00  0.00      LIGA
+ATOM   7130  H3  ANC     1      24.853   0.436  61.919  1.00  0.00      LIGA
+ATOM   7131  H4  ANC     1      26.096   0.656  60.635  1.00  0.00      LIGA
+ATOM   7132  H5  ANC     1      28.545   0.015  64.984  1.00  0.00      LIGA
+ATOM   7133  H6  ANC     1      30.551   1.474  65.536  1.00  0.00      LIGA
+ATOM   7134  H7  ANC     1      30.670   3.099  64.846  1.00  0.00      LIGA
+ATOM   7135  H8  ANC     1      30.612   2.856  67.829  1.00  0.00      LIGA
+ATOM   7136  H9  ANC     1      30.547   4.378  66.877  1.00  0.00      LIGA
+ATOM   7137  H10 ANC     1      29.806   4.688  69.218  1.00  0.00      LIGA
+ATOM   7138  H11 ANC     1      28.493   3.489  69.007  1.00  0.00      LIGA
+ATOM   7139  H12 ANC     1      27.340   4.984  67.378  1.00  0.00      LIGA
+ATOM   7140  H13 ANC     1      28.726   6.128  67.402  1.00  0.00      LIGA
+ATOM   7141  H14 ANC     1      27.714   5.909  68.877  1.00  0.00      LIGA
+ATOM   7142  H15 ANC     1      30.671   3.877  62.992  1.00  0.00      LIGA
+ATOM   7143  H16 ANC     1      28.874   4.235  60.863  1.00  0.00      LIGA
+TER    7144      ANC      1
+END

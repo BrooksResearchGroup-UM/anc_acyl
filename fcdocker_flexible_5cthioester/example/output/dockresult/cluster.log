@@ -1,0 +1,18 @@
+# cluster file
+# automatically generated on: Fri Feb  2 19:03:00 2024
+# mode: rmsd, filetype: pdb, lsqfit: 0, selmode: heavy
+@cluster t has 5 elements, 4 subclusters
+1 1
+2 2
+3 3
+4 4
+5 5
+@cluster t.1 has 1 elements, 0 subclusters
+1 1 0.000000
+@cluster t.2 has 1 elements, 0 subclusters
+2 2 0.000000
+@cluster t.3 has 1 elements, 0 subclusters
+3 3 0.000000
+@cluster t.4 has 2 elements, 0 subclusters
+4 4 0.463091
+5 5 0.463091
