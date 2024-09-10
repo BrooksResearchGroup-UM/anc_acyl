@@ -38,3 +38,5 @@ To reproduce the results from the paper, the following modelling order should be
 6. add_substrate
 7. dyn
 8. analysis
+
+For similar analysis with R enantiomer see r_substrate folder which is used by the analysis.ipynb notebook.
