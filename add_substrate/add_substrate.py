@@ -164,6 +164,8 @@ gen.new_segment(seg_name=args.substrate_segname, setup_ic=True)
 read.pdb(args.substrate_pdb, resid=True)
 write.psf_card(args.output_psf)
 
+# Orient system
+coor.orient(by_rms=False, by_mass=False, by_noro=False)
 
 # Setup nonbonds
 my_nbonds = pycharmm.NonBondedScript(

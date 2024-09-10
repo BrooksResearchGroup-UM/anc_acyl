@@ -1,0 +1,2069 @@
+  
+ CHARMM>     read rtf card -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/toppar/top_all36_prot.rtf
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/toppar/top_all36_prot.rtf::
+ MAINIO> Residue topology file being read from unit  91.
+ TITLE> *>>>>>>>>CHARMM36 ALL-HYDROGEN TOPOLOGY FILE FOR PROTEINS <<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>>> MAY 2011 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *             PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read rtf card -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/toppar/top_all36_cgenff.rtf -
+ CHARMM>     append
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/toppar/top_all36_cgenff.rtf::
+ MAINIO> Residue topology file being read from unit  91.
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *          CGENFF: TOPOLOGY FOR THE CHARMM GENERAL FORCE FIELD V. 4.6          *
+ TITLE> *                    FOR SMALL MOLECULE DRUG DESIGN                            *
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *
+
+ DRUDES PARTICLES WILL BE GENERATED AUTOMATICALLY FOR ALL ATOMS WITH NON-ZERO ALPHA
+ Thole-type dipole screening, Slater-Delta shape {S(u) = 1 - (1+u/2)*exp(-u)}, default radius =  1.300000
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read param card -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/toppar/par_all36m_prot.prm -
+ CHARMM>     flex
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/toppar/par_all36m_prot.prm::
+
+          PARAMETER FILE BEING READ FROM UNIT 91
+ TITLE> *>>>> CHARMM36 ALL-HYDROGEN PARAMETER FILE FOR PROTEINS <<<<<<<<<<
+ TITLE> *>>>>> INCLUDES PHI, PSI CROSS TERM MAP (CMAP) CORRECTION <<<<<<<<
+ TITLE> *>>>>>>>>>>>>>>>>>>>>>>>>>> JAN. 2016 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ TITLE> * ALL COMMENTS TO THE CHARMM WEB SITE: WWW.CHARMM.ORG
+ TITLE> *             PARAMETER SET DISCUSSION FORUM
+ TITLE> *
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read param card -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/toppar/par_all36_cgenff.prm -
+ CHARMM>     flex -
+ CHARMM>     append
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/toppar/par_all36_cgenff.prm::
+
+          PARAMETER FILE BEING READ FROM UNIT 91
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *         CGENFF: PARAMETERS FOR THE CHARMM GENERAL FORCE FIELD V. 4.6         *
+ TITLE> *                    FOR SMALL MOLECULE DRUG DESIGN                            *
+ TITLE> *  --------------------------------------------------------------------------  *
+ TITLE> *  2017/8: IF PROTEIN, NUCLEIC ACID AND CARBOHYDRATE TOPOLOGY AND PARAMETER FILES
+ TITLE> *  ARE NOT READ PRIOR TO THE CGENFF FILES "WARNING: ATOMS IN NBFIX ' errors will
+ TITLE> *  BE ENCOUNTERED.  THESE CAN BE PASSED BY SETTING BOMLEV ( -2) PRIOR TO READING
+ TITLE> *  THIS FILE. IN ADDITION, WHEN GENERATING AROMATIC HALOGENS (CL, BR, I) WITH
+ TITLE> *  PRE C41B/C42A VERSIONS OF CHARMM "MISSING PARAMETER" ERRORS WILL BE
+ TITLE> *  ENCOUNTERED THAT ALSO REQUIRE SETTING BOMLEV ( -2).
+ TITLE> *
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -2.50000   2.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -1.25000   2.98000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OC2D BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OBL  CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3L CLGR   -3.60000   3.18000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OCL  CLGR   -2.50000   2.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OBL  BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NH3L BRGR   -3.65000   3.33000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX OCL  BRGR   -1.25000   2.98000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN1  CLGR   -0.40000   3.88000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2  CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2U CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2G CLGR   -0.48000   3.75000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3  CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3A CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3G CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN4  CLGR   -0.46000   3.42000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1  CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1C CLGR   -0.20000   3.40000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN1  BRGR   -0.30000   4.05000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2  BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2U BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN2G BRGR   -0.72000   3.80000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3  BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3A BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN3G BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX NN4  BRGR   -0.22000   3.61000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1  BRGR   -0.27000   3.52000 DONT EXIST
+
+      ***** LEVEL  0 WARNING FROM <PARRDR> *****
+      ***** NO MATCH FOR NBFIX
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+ PARRDR> WARNING: ATOMS IN NBFIX ON1C BRGR   -0.27000   3.52000 DONT EXIST
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     stream /home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester.str
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester.str::
+ OPNLGU> Unit 99 opened for READONLY access to /home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester.str
+
+                    INPUT STREAM SWITCHING TO UNIT    99
+ RDTITL> * TOPPAR STREAM FILE GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> * FOR USE WITH CGENFF VERSION 4.6
+ RDTITL> *
+ Parameter: IN1 <- "" <empty>
+  
+ CHARMM>     
+  
+ CHARMM>    read rtf card append
+ MAINIO> Residue topology file being read from unit  99.
+ RDTITL> * TOPOLOGIES GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+
+      ***** LEVEL  1 WARNING FROM <rtfrdr> *****
+      ***** No AUTOgen defaults specified in appended RTF. Potential conflict with prior RTF autogen options. Check.
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+  
+ CHARMM>     
+  
+ CHARMM>    read param card flex append
+
+          PARAMETER FILE BEING READ FROM UNIT 99
+ RDTITL> * PARAMETERS GENERATED BY ANALOGY BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+ PARRDR> Error: Repeated BOND parameter (   263): CG2O  CG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   265): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   273): CG2O  NG2S is replaced
+ PARRDR> Error: Repeated BOND parameter (   275): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   280): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   282): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   286): CG2O  SG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   316): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   318): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   507): CG30  CG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   508): CG30  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   509): CG30  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   537): CG31  OG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   543): CG31  HGA1 is replaced
+ PARRDR> Error: Repeated BOND parameter (   563): CG32  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   566): CG32  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   577): CG32  NG2S is replaced
+ PARRDR> Error: Repeated BOND parameter (   585): CG32  OG30 is replaced
+ PARRDR> Error: Repeated BOND parameter (   594): CG32  SG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   601): CG32  HGA2 is replaced
+ PARRDR> Error: Repeated BOND parameter (   646): CG33  HGA3 is replaced
+ PARRDR> Error: Repeated BOND parameter (   754): NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated BOND parameter (   782): OG2P  PG0  is replaced
+ PARRDR> Error: Repeated BOND parameter (   791): OG30  PG0  is replaced
+ PARRDR> Error: Repeated BOND parameter (   799): OG31  PG0  is replaced
+ PARRDR> Error: Repeated BOND parameter (   804): OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   682): CG31  CG2O  NG2S is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   684): CG31  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   690): CG32  CG2O  NG2S is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   692): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   716): NG2S  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   733): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   737): CG32  CG2O  SG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   745): OG2D  CG2O  SG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   810): CG32  CG2O  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   812): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1318): CG31  CG30  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1319): CG31  CG30  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1322): CG32  CG30  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1324): CG33  CG30  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1347): CG2O  CG31  CG30 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1353): CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1355): CG2O  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1406): CG30  CG31  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1407): CG30  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1474): OG31  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1575): CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1582): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1594): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1611): CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1614): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1654): CG30  CG32  OG30 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1656): CG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1684): CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1686): CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1693): CG32  CG32  NG2S is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1704): CG32  CG32  SG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1709): CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1746): CG33  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1762): NG2S  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1771): OG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1785): SG31  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1792): HGA2  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1875): CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1880): CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1911): HGA3  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2453): CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2458): CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2471): CG32  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2661): CG32  OG30  PG0  is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2684): CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2693): PG0   OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2726): OG2P  PG0   OG30 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2728): OG2P  PG0   OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2732): OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2739): OG31  PG0   OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2801): CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1885): NG2S  CG2O  CG31  CG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1892): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1893): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1892): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1893): NG2S  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1895): NG2S  CG2O  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1907): OG2D  CG2O  CG31  CG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1914): OG2D  CG2O  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1916): OG2D  CG2O  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1950): NG2S  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1960): NG2S  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1980): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1990): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2194): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2195): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2194): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2195): CG31  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2198): CG31  CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2213): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2214): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2213): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2214): CG32  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2221): CG32  CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2271): OG2D  CG2O  NG2S  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2276): OG2D  CG2O  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2348): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2380): SG31  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2432): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2433): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2434): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2435): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2436): CG32  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2441): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2442): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2443): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2441): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2442): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2443): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2441): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2442): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2443): OG2D  CG2O  SG31  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2616): CG32  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2639): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4877): CG32  CG30  CG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4880): CG32  CG30  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4881): CG32  CG30  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4882): CG33  CG30  CG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4886): CG33  CG30  CG31  OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4887): CG33  CG30  CG31  HGA1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4899): CG31  CG30  CG32  OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4900): CG31  CG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4908): CG33  CG30  CG32  OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4912): CG33  CG30  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4920): CG31  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4921): CG32  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4922): CG33  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5407): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5408): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5409): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5407): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5408): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5409): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5407): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5408): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5409): CG2O  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5428): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5429): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5430): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5428): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5429): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5430): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5428): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5429): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5430): CG30  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5454): HGA1  CG31  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5689): CG2O  CG32  CG32  NG2S is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5690): CG2O  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5713): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5714): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5715): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5716): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5717): CG2O  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5723): CG2O  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5757): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5758): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5759): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5760): CG32  CG32  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5762): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5763): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5764): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5765): CG32  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5789): CG32  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5813): CG33  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5822): NG2S  CG32  CG32  SG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5826): NG2S  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5850): SG31  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5855): HGA2  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5925): CG32  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5954): HGA2  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6160): CG32  CG32  NG2S  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6165): CG32  CG32  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6174): HGA2  CG32  NG2S  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6177): HGA2  CG32  NG2S  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6407): HGA2  CG32  OG30  PG0  is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6541): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6542): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6541): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6542): CG32  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  6594): HGA2  CG32  SG31  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8005): CG32  OG30  PG0   OG2P is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8009): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8010): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8009): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8010): CG32  OG30  PG0   OG31 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8128): HGP1  OG31  PG0   OG2P is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8129): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8130): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8129): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8130): HGP1  OG31  PG0   OG30 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  8133): HGP1  OG31  PG0   OG31 is replaced
+ PARRDR> Error: Repeated IMPH parameter (    86): CG2O  CG31  NG2S  OG2D is replaced
+ PARRDR> Error: Repeated IMPH parameter (    91): CG2O  CG32  NG2S  OG2D is replaced
+ PARRDR> Error: Repeated IMPH parameter (   119): CG2O  CG32  OG2D  SG31 is replaced
+ PARRDR> Error: Repeated IMPH parameter (   158): CG2O  CG32  CG32  OG2D is replaced
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    RETURN
+ VCLOSE: Closing unit   99 with status "KEEP"
+
+                    RETURNING TO INPUT STREAM    90
+  
+  
+ CHARMM>     stream /home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.str
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.str::
+ OPNLGU> Unit 99 opened for READONLY access to /home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.str
+
+                    INPUT STREAM SWITCHING TO UNIT    99
+ RDTITL> * TOPPAR STREAM FILE GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> * FOR USE WITH CGENFF VERSION 4.6
+ RDTITL> *
+ Parameter: IN1 <- "" <empty>
+  
+ CHARMM>     
+  
+ CHARMM>    read rtf card append
+ MAINIO> Residue topology file being read from unit  99.
+ RDTITL> * TOPOLOGIES GENERATED BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+
+      ***** LEVEL  1 WARNING FROM <rtfrdr> *****
+      ***** No AUTOgen defaults specified in appended RTF. Potential conflict with prior RTF autogen options. Check.
+      ******************************************
+      BOMLEV ( -1) IS NOT REACHED. WRNLEV IS  5
+
+  
+ CHARMM>     
+  
+ CHARMM>    read param card flex append
+
+          PARAMETER FILE BEING READ FROM UNIT 99
+ RDTITL> * PARAMETERS GENERATED BY ANALOGY BY
+ RDTITL> * CHARMM GENERAL FORCE FIELD (CGENFF) PROGRAM VERSION 2.5.1
+ RDTITL> *
+ PARRDR> Error: Repeated BOND parameter (   198): CG2D  CG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   208): CG2D  OG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   212): CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated BOND parameter (   213): CG2D  CG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   214): CG2D  CG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   220): CG2D  CG2O is replaced
+ PARRDR> Error: Repeated BOND parameter (   225): CG2D  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   229): CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated BOND parameter (   237): CG2D  CG2O is replaced
+ PARRDR> Error: Repeated BOND parameter (   316): CG2O  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   318): CG2O  OG2D is replaced
+ PARRDR> Error: Repeated BOND parameter (   509): CG30  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   513): CG30  OG31 is replaced
+ PARRDR> Error: Repeated BOND parameter (   563): CG32  CG32 is replaced
+ PARRDR> Error: Repeated BOND parameter (   566): CG32  CG33 is replaced
+ PARRDR> Error: Repeated BOND parameter (   601): CG32  HGA2 is replaced
+ PARRDR> Error: Repeated BOND parameter (   646): CG33  HGA3 is replaced
+ PARRDR> Error: Repeated BOND parameter (   804): OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   494): CG2D  CG2D  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   497): CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   522): CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   526): CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   530): CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   532): CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   560): CG2O  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   579): CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   583): CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   590): CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   792): CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   797): CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   810): CG32  CG2O  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (   812): CG32  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1328): CG33  CG30  OG31 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1565): CG2D  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1611): CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1614): CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1686): CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1709): CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1746): CG33  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1792): HGA2  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1875): CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1880): CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  1911): HGA3  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2677): CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated ANGLE parameter (  2683): CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1128): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1129): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1128): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1129): OG31  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1135): HGA4  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1199): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1200): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1201): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1199): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1200): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1201): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1199): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1200): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1201): CG2D  CG2D  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1226): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1227): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1226): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1227): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1234): CG2D  CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1245): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1246): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1245): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1246): CG2O  CG2D  CG2D  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1257): CG32  CG2D  CG2D  HGA4 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1267): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1268): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1269): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1267): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1268): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1269): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1267): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1268): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1269): CG2D  CG2D  CG2D  CG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1279): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1280): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1281): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1279): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1280): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1281): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1279): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1280): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1281): CG2D  CG2D  CG2D  CG2O is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1420): CG2D  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1435): HGA4  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1490): CG2D  CG2D  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1644): CG2D  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  1646): CG2D  CG2D  CG2O  OG2D is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2609): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2610): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2611): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2612): CG32  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2616): CG32  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2629): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2630): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2631): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2632): OG2D  CG2O  CG32  CG32 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  2639): OG2D  CG2O  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4926): OG31  CG30  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4956): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4957): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4958): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4956): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4957): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4958): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4956): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4957): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  4958): CG33  CG30  OG31  HGP1 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5718): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5719): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5720): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5721): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5722): CG2O  CG32  CG32  CG33 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5723): CG2O  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5813): CG33  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5855): HGA2  CG32  CG32  HGA2 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5925): CG32  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated DIHE parameter (  5954): HGA2  CG32  CG33  HGA3 is replaced
+ PARRDR> Error: Repeated IMPH parameter (   158): CG2O  CG32  CG32  OG2D is replaced
+ PARMIO> NONBOND, HBOND lists and IMAGE atoms cleared.
+  
+ CHARMM>    RETURN
+ VCLOSE: Closing unit   99 with status "KEEP"
+
+                    RETURNING TO INPUT STREAM    90
+  
+  
+ CHARMM>     read psf card -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester/anc452_5cthioester.psf
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester/anc452_5cthioester.psf::
+ MAINIO> Protein structure file being read from unit  91.
+ psf_read_formatted: Reading PSF in the expanded format.
+ TITLE>  * EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>  *  DATE:    11/ 1/23     16:16:56      CREATED BY USER: azamh
+ TITLE>  *
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        2   Number of residues   =      459
+         Number of atoms         =     7133   Number of groups     =     2067
+         Number of bonds         =     7220   Number of angles     =    13119
+         Number of dihedrals     =    19262   Number of impropers  =     1260
+         Number of cross-terms   =      458   Number of autogens   =        0
+         Number of HB acceptors  =      649   Number of HB donors  =      773
+         Number of NB exclusions =        0   Total charge =    3.00000
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read coor pdb -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester/anc452_5cthioester.pdb -
+ CHARMM>     resid
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester/anc452_5cthioester.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 91
+ TITLE>   EXECUTING CHARMM SCRIPT FROM PYTHON
+ TITLE>    DATE:    11/ 1/23     16:17:11      CREATED BY USER: AZAMH
+ TITLE>  *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     read sequence pdb -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.pdb
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.pdb::
+ MAINIO> Sequence information being read from unit  91.
+ TITLE>  *
+
+          RESIDUE SEQUENCE --     1 RESIDUES
+          ANC     
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+ NO PATCHING WILL BE DONE ON THE FIRST RESIDUE
+ NO PATCHING WILL BE DONE ON THE LAST  RESIDUE
+ AUTGEN: Autogenerating specified angles and dihedrals.
+ GENPSF> Segment   3 has been generated. Its identifier is LIGA.
+ PSFSUM> PSF modified: NONBOND lists and IMAGE atoms cleared.
+ PSFSUM> Summary of the structure file counters :
+         Number of segments      =        3   Number of residues   =      460
+         Number of atoms         =     7167   Number of groups     =     2068
+         Number of bonds         =     7254   Number of angles     =    13178
+         Number of dihedrals     =    19344   Number of impropers  =     1264
+         Number of cross-terms   =      458   Number of autogens   =        0
+         Number of HB acceptors  =      649   Number of HB donors  =      773
+         Number of NB exclusions =        0   Total charge =    3.00000
+  
+ CHARMM>     read coor pdb -
+ CHARMM>     name /home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.pdb -
+ CHARMM>     resid
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.pdb::
+  read CHARMM-pdb format
+          SPATIAL COORDINATES BEING READ FROM UNIT 91
+ TITLE>  *
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     write name /home/azamh/workspace/anc_acyl/r_substrate/add_substrate/output/anc452_5cthioester_r_substrate.psf -
+ CHARMM>     psf card
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/r_substrate/add_substrate/output/anc452_5cthioester_r_substrate.psf::
+ RDTITL>  
+ RDTITL> No title read.
+ VCLOSE: Closing unit   91 with status "KEEP"
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+  
+ CHARMM>     coor orient
+
+ ORIENT THE COORDINATES TO ALIGN WITH AXIS
+
+ MOMENTS
+ 953225.62895125 181548.46071693-176676.10755760
+                1435771.95446294  61629.92098510
+                                1245634.63766152
+
+ Transpose of the rotation matrix
+     0.012703    0.949598    0.313213
+     0.918138    0.112994   -0.379809
+    -0.396057    0.292398   -0.870427
+ CENTER OF ATOMS BEFORE TRANSLATION    27.32907     5.33325    66.98447
+ AXIS OF ROTATION IS -0.687532 -0.725441  0.032177  ANGLE IS  150.73
+
+ ALL COORDINATES ORIENTED IN THE MAIN SET BASED ON SELECTED ATOMS.
+
+  
+ CHARMM>     
+  
+  
+ CHARMM>     nbonds cutnb 10.0 -
+ CHARMM>     ctonnb 8.0 -
+ CHARMM>     ctofnb 7.0 -
+ CHARMM>     eps 1.0 -
+ CHARMM>     cdie -
+ CHARMM>     atom -
+ CHARMM>     vatom -
+ CHARMM>     fswitch -
+ CHARMM>     vfswitch
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  FSWItch  VATOm    VFSWIt  
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 10.000 CTEXNB =999.000 CTONNB =  8.000 CTOFNB =  7.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are        0 atom  pairs and        0 atom  exclusions.
+ There are        0 group pairs and        0 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      10.0       7.0       8.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ <MAKINB> with mode   5 found  20432 exclusions and  18956 interactions(1-4)
+ <MAKGRP> found   5981 group exclusions.
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR   750528 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.36 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+ WARNING: ATOMS PROA     169      HSD      ND1      AND LIGA     1        ANC      H13      ONLY 1.30 A. APART
+ WARNING: ATOMS PROA     169      HSD      CE1      AND LIGA     1        ANC      H13      ONLY 0.62 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C2       ONLY 1.34 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C13      ONLY 0.69 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      H13      ONLY 0.87 A. APART
+ WARNING: ATOMS PROA     173      ASP      OD2      AND LIGA     1        ANC      C4       ONLY 1.38 A. APART
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.36 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+ WARNING: ATOMS PROA     169      HSD      ND1      AND LIGA     1        ANC      H13      ONLY 1.30 A. APART
+ WARNING: ATOMS PROA     169      HSD      CE1      AND LIGA     1        ANC      H13      ONLY 0.62 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C2       ONLY 1.34 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C13      ONLY 0.69 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      H13      ONLY 0.87 A. APART
+ WARNING: ATOMS PROA     173      ASP      OD2      AND LIGA     1        ANC      C4       ONLY 1.38 A. APART
+
+ General atom nonbond list generation found:
+  1044718 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83937 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+  
+ CHARMM>     
+  
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  FSWItch  VATOm    VFSWIt  
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 10.000 CTEXNB =999.000 CTONNB =  8.000 CTOFNB =  7.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are  1044718 atom  pairs and    39388 atom  exclusions.
+ There are        0 group pairs and     5981 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      10.0       7.0       8.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.36 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+ WARNING: ATOMS PROA     169      HSD      ND1      AND LIGA     1        ANC      H13      ONLY 1.30 A. APART
+ WARNING: ATOMS PROA     169      HSD      CE1      AND LIGA     1        ANC      H13      ONLY 0.62 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C2       ONLY 1.34 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C13      ONLY 0.69 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      H13      ONLY 0.87 A. APART
+ WARNING: ATOMS PROA     173      ASP      OD2      AND LIGA     1        ANC      C4       ONLY 1.38 A. APART
+
+ General atom nonbond list generation found:
+  1044718 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83937 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+ENER ENR:  Eval#     ENERgy      Delta-E         GRMS
+ENER INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+ENER CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+ENER EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+ENER>        0 12102116.137        0.000  1860970.561
+ENER INTERN>      485.07820   1474.31656     89.86042   4079.97397     66.98150
+ENER CROSS>      -108.72621      0.00000      0.00000      0.00000
+ENER EXTERN>   12105023.728    -8995.075        0.000        0.000        0.000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ CSTRAN: Harmonic Restraints
+          ABSOlute type as set number  1.  Number of selected atoms:   1866
+          Reference coordinates set to main coordinates.
+          Mass weighting will NOT be used for new restraints.
+          The force constant of       0.00000 will be used.
+          An exponent of  2 will be used.
+          The XYZ scale factors are:       1.00000       1.00000       1.00000
+          A total of      0 atoms are restrained.
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  FSWItch  VATOm    VFSWIt  
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 10.000 CTEXNB =999.000 CTONNB =  8.000 CTOFNB =  7.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are  1044718 atom  pairs and    39388 atom  exclusions.
+ There are        0 group pairs and     5981 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      10.0       7.0       8.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.36 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+ WARNING: ATOMS PROA     169      HSD      ND1      AND LIGA     1        ANC      H13      ONLY 1.30 A. APART
+ WARNING: ATOMS PROA     169      HSD      CE1      AND LIGA     1        ANC      H13      ONLY 0.62 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C2       ONLY 1.34 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      C13      ONLY 0.69 A. APART
+ WARNING: ATOMS PROA     169      HSD      HE1      AND LIGA     1        ANC      H13      ONLY 0.87 A. APART
+ WARNING: ATOMS PROA     173      ASP      OD2      AND LIGA     1        ANC      C4       ONLY 1.38 A. APART
+
+ General atom nonbond list generation found:
+  1044718 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83937 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+ PRNHBD: CUToff Hydrogen Bond  distance =    0.5000   Angle =   90.0000
+         CuT switching ON HB dist. =     3.5000  OFf HB dist. =    4.0000
+         CuT switching ON Hb Angle =    50.0000  OFf Hb Angle =   70.0000
+         ACCEptor antecedents included
+         All hydrogen bonds for each hydrogen will be found
+         Hydrogen bonds between excluded atoms will be kept
+
+
+
+ STEEPD> An energy minimization has been requested.
+
+ NSTEP  =          200   NPRINT =           10
+ STEP   =    0.0200000   TOLFUN =    0.0010000
+ TOLGRD =    0.0001000   TOLSTP =    0.0000000
+
+MINI MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+MINI INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        0 12102116.137        0.000  1860970.561        0.020
+MINI INTERN>      485.07820   1474.31656     89.86042   4079.97397     66.98150
+MINI CROSS>      -108.72621      0.00000      0.00000      0.00000
+MINI EXTERN>   12105023.728    -8995.075        0.000        0.000        0.000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       10    -2697.148 12104813.285       15.484        0.009
+MINI INTERN>     1123.02518   1867.32842    122.43273   4122.16087     79.72918
+MINI CROSS>      -108.51978      0.00000      0.00000      0.00000
+MINI EXTERN>     -902.05607  -9001.24871      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       20  -3776.49418   1079.34598      0.64559      0.00070
+MINI INTERN>      493.86984   1506.99111     99.43853   4096.23765     71.44676
+MINI CROSS>      -108.19375      0.00000      0.00000      0.00000
+MINI EXTERN>     -926.98694  -9009.29739      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       30  -3804.95357     28.45940      1.20040      0.00075
+MINI INTERN>      492.11669   1500.55418     95.62268   4093.20329     71.51096
+MINI CROSS>      -107.93073      0.00000      0.00000      0.00000
+MINI EXTERN>     -939.87958  -9010.15107      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       40  -3824.91639     19.96281      0.52695      0.00034
+MINI INTERN>      489.06226   1495.04623     94.37367   4092.22446     71.30729
+MINI CROSS>      -107.84666      0.00000      0.00000      0.00000
+MINI EXTERN>     -947.03856  -9012.04508      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step        50
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.33 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044677 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83937 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>       50  -3835.00636     10.08998      0.62458      0.00036
+MINI INTERN>      488.23231   1492.74934     93.58845   4091.53964     70.98232
+MINI CROSS>      -107.69058      0.00000      0.00000      0.00000
+MINI EXTERN>     -952.90777  -9011.50006      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       60  -3842.87984      7.87348      0.68516      0.00039
+MINI INTERN>      487.69875   1491.40563     92.83723   4091.10417     70.73788
+MINI CROSS>      -107.69679      0.00000      0.00000      0.00000
+MINI EXTERN>     -958.45912  -9010.50759      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       70  -3848.94434      6.06450      0.78324      0.00042
+MINI INTERN>      488.01761   1489.35846     92.48550   4090.81630     70.51771
+MINI CROSS>      -107.58584      0.00000      0.00000      0.00000
+MINI EXTERN>     -962.28090  -9010.27318      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       80  -3853.31348      4.36914      0.80101      0.00045
+MINI INTERN>      486.40844   1489.10492     92.08051   4090.57890     70.20908
+MINI CROSS>      -107.51279      0.00000      0.00000      0.00000
+MINI EXTERN>     -965.55189  -9008.63067      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       90  -3859.42816      6.11468      0.28255      0.00020
+MINI INTERN>      484.93840   1487.62383     91.90363   4090.32150     70.00912
+MINI CROSS>      -107.50892      0.00000      0.00000      0.00000
+MINI EXTERN>     -968.40363  -9008.31210      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       100
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.32 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044618 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83912 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      100  -3863.07833      3.65016      0.44632      0.00022
+MINI INTERN>      484.60323   1486.70292     91.60947   4090.02012     69.73627
+MINI CROSS>      -107.46873      0.00000      0.00000      0.00000
+MINI EXTERN>     -970.96242  -9007.31918      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      110  -3866.38135      3.30302      0.46178      0.00023
+MINI INTERN>      484.63210   1485.84805     91.58388   4089.73945     69.58410
+MINI CROSS>      -107.45094      0.00000      0.00000      0.00000
+MINI EXTERN>     -973.63206  -9006.68593      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      120  -3869.43823      3.05688      0.45764      0.00025
+MINI INTERN>      484.54243   1485.40882     91.42359   4089.42276     69.43170
+MINI CROSS>      -107.35366      0.00000      0.00000      0.00000
+MINI EXTERN>     -975.81653  -9006.49733      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      130  -3872.09312      2.65489      0.57805      0.00027
+MINI INTERN>      484.09414   1484.27210     91.35709   4089.26753     69.26491
+MINI CROSS>      -107.33056      0.00000      0.00000      0.00000
+MINI EXTERN>     -977.55817  -9005.46018      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ STEEPD> Minimization exiting with function tolerance ( 0.0010000) satisfied.
+
+STPD MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+STPD INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+STPD CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+STPD EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+STPD>      135  -3873.35707      1.26395      0.58434      0.00014
+STPD INTERN>      484.20239   1484.18387     91.34343   4089.14458     69.17964
+STPD CROSS>      -107.32691      0.00000      0.00000      0.00000
+STPD EXTERN>     -978.52471  -9005.55935      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ CSTRAN: Harmonic Restraints
+          ABSOlute type as set number  1.  Number of selected atoms:   3393
+          Reference coordinates set to main coordinates.
+          Mass weighting will NOT be used for new restraints.
+          The force constant of       0.00000 will be used.
+          An exponent of  2 will be used.
+          The XYZ scale factors are:       1.00000       1.00000       1.00000
+          A total of      0 atoms are restrained.
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  FSWItch  VATOm    VFSWIt  
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 10.000 CTEXNB =999.000 CTONNB =  8.000 CTOFNB =  7.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are  1044618 atom  pairs and    39388 atom  exclusions.
+ There are        0 group pairs and     5981 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      10.0       7.0       8.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.31 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044602 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83906 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+ PRNHBD: CUToff Hydrogen Bond  distance =    0.5000   Angle =   90.0000
+         CuT switching ON HB dist. =     3.5000  OFf HB dist. =    4.0000
+         CuT switching ON Hb Angle =    50.0000  OFf Hb Angle =   70.0000
+         ACCEptor antecedents included
+         All hydrogen bonds for each hydrogen will be found
+         Hydrogen bonds between excluded atoms will be kept
+
+
+
+ STEEPD> An energy minimization has been requested.
+
+ NSTEP  =          200   NPRINT =           10
+ STEP   =    0.0200000   TOLFUN =    0.0010000
+ TOLGRD =    0.0001000   TOLSTP =    0.0000000
+
+MINI MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+MINI INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        0  -3873.35783      0.00076      0.43083      0.02000
+MINI INTERN>      483.87098   1484.59727     91.11632   4089.17388     69.15387
+MINI CROSS>      -107.27132      0.00000      0.00000      0.00000
+MINI EXTERN>     -978.48565  -9005.51318      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       10  -3847.02480    -26.33303      2.95097      0.00156
+MINI INTERN>      509.19724   1486.91329     90.05679   4088.20464     68.42508
+MINI CROSS>      -107.21096      0.00000      0.00000      0.00000
+MINI EXTERN>     -986.49890  -8996.11199      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       20  -3887.56161     40.53681      0.57330      0.00029
+MINI INTERN>      482.63796   1481.17907     90.61601   4087.91637     68.21726
+MINI CROSS>      -107.29493      0.00000      0.00000      0.00000
+MINI EXTERN>     -989.56987  -9001.26348      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       30  -3889.47308      1.91147      0.62817      0.00031
+MINI INTERN>      483.29478   1480.89681     90.49691   4087.80694     68.04830
+MINI CROSS>      -107.17923      0.00000      0.00000      0.00000
+MINI EXTERN>     -991.20689  -9001.63070      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       40  -3892.10946      2.63637      0.24871      0.00014
+MINI INTERN>      482.25350   1480.57469     90.48384   4087.69088     68.03492
+MINI CROSS>      -107.17751      0.00000      0.00000      0.00000
+MINI EXTERN>     -992.24113  -9001.72865      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ STEEPD> Minimization exiting with function tolerance ( 0.0010000) satisfied.
+
+STPD MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+STPD INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+STPD CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+STPD EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+STPD>       41  -3892.10886     -0.00059      0.41450      0.00008
+STPD INTERN>      482.45114   1480.37340     90.44642   4087.69795     67.96106
+STPD CROSS>      -107.13695      0.00000      0.00000      0.00000
+STPD EXTERN>     -992.35642  -9001.54547      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ CSTRAN: Harmonic Restraints
+          ABSOlute type as set number  1.  Number of selected atoms:   7133
+          Reference coordinates set to main coordinates.
+          Mass weighting will NOT be used for new restraints.
+          The force constant of       0.00000 will be used.
+          An exponent of  2 will be used.
+          The XYZ scale factors are:       1.00000       1.00000       1.00000
+          A total of      0 atoms are restrained.
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  FSWItch  VATOm    VFSWIt  
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 10.000 CTEXNB =999.000 CTONNB =  8.000 CTOFNB =  7.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are  1044602 atom  pairs and    39388 atom  exclusions.
+ There are        0 group pairs and     5981 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      10.0       7.0       8.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.29 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044624 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83894 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+ PRNHBD: CUToff Hydrogen Bond  distance =    0.5000   Angle =   90.0000
+         CuT switching ON HB dist. =     3.5000  OFf HB dist. =    4.0000
+         CuT switching ON Hb Angle =    50.0000  OFf Hb Angle =   70.0000
+         ACCEptor antecedents included
+         All hydrogen bonds for each hydrogen will be found
+         Hydrogen bonds between excluded atoms will be kept
+
+
+
+ STEEPD> An energy minimization has been requested.
+
+ NSTEP  =          200   NPRINT =           10
+ STEP   =    0.0200000   TOLFUN =    0.0010000
+ TOLGRD =    0.0001000   TOLSTP =    0.0000000
+
+MINI MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+MINI INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        0  -3892.10946      0.00059      0.24871      0.02000
+MINI INTERN>      482.25350   1480.57469     90.48384   4087.69088     68.03492
+MINI CROSS>      -107.17751      0.00000      0.00000      0.00000
+MINI EXTERN>     -992.24113  -9001.72865      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       10  -3898.59580      6.48635      0.61402      0.00065
+MINI INTERN>      483.77720   1479.86894     90.44444   4086.21329     67.97980
+MINI CROSS>      -106.77104      0.00000      0.00000      0.00000
+MINI EXTERN>    -1002.76459  -8997.34383      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       20  -3905.62590      7.03009      0.56965      0.00029
+MINI INTERN>      482.37448   1478.10355     90.35676   4085.98418     67.79026
+MINI CROSS>      -106.91518      0.00000      0.00000      0.00000
+MINI EXTERN>    -1003.94166  -8999.37830      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       30  -3908.42183      2.79593      0.31459      0.00013
+MINI INTERN>      482.11167   1477.66085     90.25531   4085.88267     67.78677
+MINI CROSS>      -106.90412      0.00000      0.00000      0.00000
+MINI EXTERN>    -1004.78317  -9000.43180      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       40  -3909.71769      1.29586      0.36241      0.00014
+MINI INTERN>      482.09159   1477.31811     90.18118   4085.81966     67.79453
+MINI CROSS>      -106.90607      0.00000      0.00000      0.00000
+MINI EXTERN>    -1005.51042  -9000.50628      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step        50
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.26 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044576 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83930 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>       50  -3910.92830      1.21061      0.24813      0.00006
+MINI INTERN>      482.10286   1477.18885     90.23219   4085.73850     67.85052
+MINI CROSS>      -106.93059      0.00000      0.00000      0.00000
+MINI EXTERN>    -1006.06579  -9001.04483      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       60  -3911.38274      0.45444      0.37074      0.00016
+MINI INTERN>      482.06607   1477.20644     90.18641   4085.69345     67.85976
+MINI CROSS>      -106.95281      0.00000      0.00000      0.00000
+MINI EXTERN>    -1006.58526  -9000.85680      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       70  -3912.35756      0.97483      0.29151      0.00007
+MINI INTERN>      481.98595   1477.03288     90.21374   4085.65217     67.81566
+MINI CROSS>      -106.93137      0.00000      0.00000      0.00000
+MINI EXTERN>    -1007.11455  -9001.01204      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       80  -3912.94580      0.58824      0.30391      0.00008
+MINI INTERN>      482.04978   1476.82992     90.21691   4085.63848     67.80442
+MINI CROSS>      -106.91477      0.00000      0.00000      0.00000
+MINI EXTERN>    -1007.49581  -9001.07473      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       90  -3913.44939      0.50359      0.32476      0.00008
+MINI INTERN>      481.84400   1476.91099     90.20367   4085.62119     67.77753
+MINI CROSS>      -106.90390      0.00000      0.00000      0.00000
+MINI EXTERN>    -1007.92249  -9000.98038      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       100
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.26 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044558 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83927 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      100  -3913.97643      0.52705      0.29631      0.00009
+MINI INTERN>      481.75808   1476.86457     90.19274   4085.58576     67.75173
+MINI CROSS>      -106.91715      0.00000      0.00000      0.00000
+MINI EXTERN>    -1008.36146  -9000.85070      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      110  -3914.49504      0.51861      0.29309      0.00010
+MINI INTERN>      481.63744   1476.96498     90.15360   4085.53109     67.74013
+MINI CROSS>      -106.90220      0.00000      0.00000      0.00000
+MINI EXTERN>    -1008.81230  -9000.80778      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ STEEPD> Minimization exiting with function tolerance ( 0.0010000) satisfied.
+
+STPD MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+STPD INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+STPD CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+STPD EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+STPD>      118  -3914.94258      0.44754      0.29597      0.00009
+STPD INTERN>      481.93470   1476.76492     90.16159   4085.53040     67.70158
+STPD CROSS>      -106.89787      0.00000      0.00000      0.00000
+STPD EXTERN>    -1009.14558  -9000.99234      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  FSWItch  VATOm    VFSWIt  
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 10.000 CTEXNB =999.000 CTONNB =  8.000 CTOFNB =  7.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are  1044558 atom  pairs and    39388 atom  exclusions.
+ There are        0 group pairs and     5981 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      10.0       7.0       8.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.26 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044551 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83927 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+ PRNHBD: CUToff Hydrogen Bond  distance =    0.5000   Angle =   90.0000
+         CuT switching ON HB dist. =     3.5000  OFf HB dist. =    4.0000
+         CuT switching ON Hb Angle =    50.0000  OFf Hb Angle =   70.0000
+         ACCEptor antecedents included
+         All hydrogen bonds for each hydrogen will be found
+         Hydrogen bonds between excluded atoms will be kept
+
+
+
+ ABNER> An energy minimization has been requested.
+
+ EIGRNG =    0.0005000   MINDIM =            5
+ NPRINT =           10   NSTEP  =         1000
+ PSTRCT =    0.0000000   SDSTP  =    0.0200000
+ STPLIM =    1.0000000   STRICT =    0.1000000
+ TOLFUN =    0.0010000   TOLGRD =    0.0001000
+ TOLITR =          100   TOLSTP =    0.0000000
+ FMEM   =    0.0000000
+MINI MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+MINI INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+MINI CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+MINI EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>        0  -3914.94258      0.44754      0.29597      0.00000
+MINI INTERN>      481.93470   1476.76492     90.16159   4085.53040     67.70158
+MINI CROSS>      -106.89787      0.00000      0.00000      0.00000
+MINI EXTERN>    -1009.14558  -9000.99234      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       10  -3920.30564      5.36306      0.46629      0.01993
+MINI INTERN>      482.94866   1476.17874     89.91608   4085.04822     67.63907
+MINI CROSS>      -106.66584      0.00000      0.00000      0.00000
+MINI EXTERN>    -1014.67653  -9000.69403      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       20  -3931.74730     11.44167      0.30731      0.01930
+MINI INTERN>      482.76676   1477.12110     89.74709   4085.45198     67.78723
+MINI CROSS>      -106.48663      0.00000      0.00000      0.00000
+MINI EXTERN>    -1027.49434  -9000.64049      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       30  -3937.17206      5.42475      0.33780      0.01870
+MINI INTERN>      483.28463   1476.53926     89.99057   4086.59364     68.32259
+MINI CROSS>      -106.44450      0.00000      0.00000      0.00000
+MINI EXTERN>    -1031.29439  -9004.16386      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       40  -3941.97289      4.80083      0.31811      0.01811
+MINI INTERN>      483.19583   1475.39994     90.19692   4086.55153     68.40210
+MINI CROSS>      -106.46488      0.00000      0.00000      0.00000
+MINI EXTERN>    -1032.06673  -9007.18762      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step        50
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.21 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1044086 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83898 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>       50  -3946.41961      4.44673      0.29946      0.01052
+MINI INTERN>      482.15695   1475.05220     89.62272   4085.68880     68.38059
+MINI CROSS>      -106.43292      0.00000      0.00000      0.00000
+MINI EXTERN>    -1030.72797  -9010.15999      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       60  -3949.26570      2.84609      0.30067      0.01019
+MINI INTERN>      481.31235   1474.57789     89.33463   4086.11219     68.53659
+MINI CROSS>      -106.51345      0.00000      0.00000      0.00000
+MINI EXTERN>    -1030.50235  -9012.12357      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       70  -3951.67112      2.40542      0.30978      0.00987
+MINI INTERN>      481.37952   1473.59092     89.54281   4086.48236     68.75269
+MINI CROSS>      -106.68541      0.00000      0.00000      0.00000
+MINI EXTERN>    -1029.97611  -9014.75789      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       80  -3953.85159      2.18047      0.30548      0.00956
+MINI INTERN>      481.85773   1473.01809     89.56321   4086.92541     68.67558
+MINI CROSS>      -106.88264      0.00000      0.00000      0.00000
+MINI EXTERN>    -1030.58972  -9016.41925      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>       90  -3956.53423      2.68264      0.28373      0.00926
+MINI INTERN>      482.08445   1474.01482     89.52299   4087.06184     68.56541
+MINI CROSS>      -107.18687      0.00000      0.00000      0.00000
+MINI EXTERN>    -1032.81240  -9017.78447      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       100
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.15 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1043754 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83923 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      100  -3959.08632      2.55210      0.29548      0.00897
+MINI INTERN>      482.10349   1474.51903     89.63348   4086.87051     68.44721
+MINI CROSS>      -107.45631      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.32143  -9018.88230      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      110  -3961.85920      2.77287      0.28316      0.00869
+MINI INTERN>      482.08275   1474.64734     89.80290   4086.49648     68.43933
+MINI CROSS>      -107.68703      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.57297  -9021.06800      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      120  -3964.36188      2.50269      0.27321      0.00841
+MINI INTERN>      482.05316   1474.70833     89.70894   4086.52570     68.66242
+MINI CROSS>      -107.97549      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.24600  -9023.79893      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      130  -3966.13492      1.77303      0.29332      0.00815
+MINI INTERN>      482.46758   1475.04708     89.92484   4086.86393     68.58164
+MINI CROSS>      -108.23477      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.89179  -9025.89344      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      140  -3967.63103      1.49611      0.29826      0.00789
+MINI INTERN>      482.56658   1475.50912     89.99858   4087.27432     68.56600
+MINI CROSS>      -108.49748      0.00000      0.00000      0.00000
+MINI EXTERN>    -1035.05778  -9027.99037      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       150
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.09 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1043452 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83881 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      150  -3969.40702      1.77599      0.29332      0.00764
+MINI INTERN>      483.14060   1475.84830     89.94666   4087.79890     68.57110
+MINI CROSS>      -108.69418      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.90831  -9031.11011      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      160  -3971.58710      2.18008      0.29776      0.00740
+MINI INTERN>      483.61878   1475.48505     90.02400   4088.37038     68.61044
+MINI CROSS>      -108.89644      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.34856  -9034.45075      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      170  -3973.80978      2.22268      0.30542      0.01195
+MINI INTERN>      482.84851   1476.02298     89.89830   4088.83816     68.55242
+MINI CROSS>      -109.05664      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.16333  -9036.75017      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      180  -3976.26692      2.45714      0.28988      0.01158
+MINI INTERN>      482.68786   1476.74354     89.69552   4088.67594     68.49440
+MINI CROSS>      -109.05759      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.52348  -9038.98312      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      190  -3978.54719      2.28027      0.27991      0.00673
+MINI INTERN>      482.74765   1476.93411     89.40803   4088.58931     68.30691
+MINI CROSS>      -108.91131      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.71323  -9040.90865      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       200
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.09 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1043166 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83832 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      200  -3981.29258      2.74539      0.30422      0.01086
+MINI INTERN>      482.75294   1476.37974     89.18472   4088.29443     68.52018
+MINI CROSS>      -108.77051      0.00000      0.00000      0.00000
+MINI EXTERN>    -1035.85842  -9041.79568      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      210  -3983.59972      2.30714      0.30907      0.01052
+MINI INTERN>      482.62013   1475.89919     89.19234   4088.05121     68.52583
+MINI CROSS>      -108.77802      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.25684  -9041.85357      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      220  -3985.63436      2.03464      0.30997      0.01019
+MINI INTERN>      482.52240   1475.77571     89.21789   4087.81282     68.38943
+MINI CROSS>      -108.77154      0.00000      0.00000      0.00000
+MINI EXTERN>    -1038.89193  -9041.68914      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      230  -3987.51335      1.87899      0.27963      0.00987
+MINI INTERN>      482.44015   1475.91941     89.14946   4088.02306     68.34044
+MINI CROSS>      -109.01748      0.00000      0.00000      0.00000
+MINI EXTERN>    -1039.71743  -9042.65096      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      240  -3989.20272      1.68937      0.27783      0.00573
+MINI INTERN>      482.41445   1476.59334     89.20916   4088.40587     68.43742
+MINI CROSS>      -109.25643      0.00000      0.00000      0.00000
+MINI EXTERN>    -1040.04569  -9044.96084      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       250
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042926 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83821 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      250  -3990.25390      1.05118      0.29818      0.00555
+MINI INTERN>      482.26472   1477.39915     89.36561   4088.80217     68.43552
+MINI CROSS>      -109.33616      0.00000      0.00000      0.00000
+MINI EXTERN>    -1040.02393  -9047.16098      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      260  -3991.70968      1.45578      0.30218      0.00896
+MINI INTERN>      482.48011   1478.25406     89.43001   4089.25365     68.47275
+MINI CROSS>      -109.20672      0.00000      0.00000      0.00000
+MINI EXTERN>    -1039.89289  -9050.50064      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      270  -3993.98088      2.27120      0.28522      0.00868
+MINI INTERN>      483.11954   1478.89815     89.49447   4090.05293     68.20013
+MINI CROSS>      -109.40457      0.00000      0.00000      0.00000
+MINI EXTERN>    -1039.05327  -9055.28826      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      280  -3996.88829      2.90742      0.29853      0.00841
+MINI INTERN>      482.90782   1479.07828     89.36370   4090.97716     68.15666
+MINI CROSS>      -109.75123      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.84163  -9059.77906      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      290  -3999.90819      3.01989      0.31803      0.01358
+MINI INTERN>      482.63351   1478.88871     89.13348   4091.47060     68.22567
+MINI CROSS>      -109.85192      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.51442  -9062.89381      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       300
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.08 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042634 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83757 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      300  -4002.03991      2.13172      0.27521      0.00789
+MINI INTERN>      483.07403   1478.97611     89.09418   4092.12385     68.02927
+MINI CROSS>      -110.25390      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.28251  -9065.80095      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      310  -4003.75549      1.71558      0.28685      0.00764
+MINI INTERN>      483.30310   1478.61834     89.14048   4092.68353     68.05622
+MINI CROSS>      -110.73093      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.17510  -9067.65113      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      320  -4005.72576      1.97027      0.27602      0.00740
+MINI INTERN>      483.35132   1477.93721     89.21468   4093.21412     68.05413
+MINI CROSS>      -111.27554      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.59683  -9068.62485      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      330  -4007.69994      1.97418      0.32527      0.01195
+MINI INTERN>      483.45754   1478.12331     89.18210   4093.54884     67.98610
+MINI CROSS>      -111.78132      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.98229  -9070.23421      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      340  -4010.03918      2.33925      0.29263      0.00694
+MINI INTERN>      483.67766   1478.83973     89.27957   4093.65881     68.18234
+MINI CROSS>      -112.26747      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.57287  -9073.83695      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       350
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.04 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042567 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83737 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      350  -4012.50437      2.46519      0.29528      0.01121
+MINI INTERN>      483.82251   1478.59004     89.25805   4093.99292     68.29610
+MINI CROSS>      -112.48278      0.00000      0.00000      0.00000
+MINI EXTERN>    -1036.24468  -9077.73653      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      360  -4016.07912      3.57475      0.28657      0.01085
+MINI INTERN>      483.57472   1477.78989     89.57672   4093.85905     68.01833
+MINI CROSS>      -112.39685      0.00000      0.00000      0.00000
+MINI EXTERN>    -1035.97426  -9080.52671      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      370  -4018.50503      2.42591      0.28300      0.01051
+MINI INTERN>      482.66786   1477.34855     89.35979   4093.82198     68.10973
+MINI CROSS>      -112.16441      0.00000      0.00000      0.00000
+MINI EXTERN>    -1035.54538  -9082.10316      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      380  -4019.85251      1.34748      0.26780      0.00367
+MINI INTERN>      482.52656   1476.65295     89.34606   4094.05721     68.11697
+MINI CROSS>      -111.93874      0.00000      0.00000      0.00000
+MINI EXTERN>    -1035.29184  -9083.32169      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      390  -4020.77559      0.92308      0.28280      0.00592
+MINI INTERN>      482.48058   1476.10234     89.36638   4094.21578     68.00422
+MINI CROSS>      -111.88855      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.86197  -9084.19438      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       400
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.04 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042472 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83713 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      400  -4021.89617      1.12057      0.26157      0.00344
+MINI INTERN>      482.39463   1476.05973     89.44732   4094.33632     67.84874
+MINI CROSS>      -111.97388      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.86323  -9085.14580      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      410  -4022.66711      0.77094      0.27797      0.00333
+MINI INTERN>      482.31132   1476.12959     89.53917   4094.36567     67.90279
+MINI CROSS>      -112.09375      0.00000      0.00000      0.00000
+MINI EXTERN>    -1035.26554  -9085.55635      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      420  -4023.30823      0.64113      0.27970      0.00323
+MINI INTERN>      482.19392   1476.42746     89.72993   4094.42148     68.07053
+MINI CROSS>      -112.14061      0.00000      0.00000      0.00000
+MINI EXTERN>    -1036.03605  -9085.97489      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      430  -4023.95504      0.64681      0.26285      0.00312
+MINI INTERN>      482.23132   1476.79737     89.80593   4094.54831     68.04674
+MINI CROSS>      -112.17886      0.00000      0.00000      0.00000
+MINI EXTERN>    -1036.96621  -9086.23964      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      440  -4024.69731      0.74228      0.26473      0.00303
+MINI INTERN>      482.11917   1476.98226     89.85215   4094.72453     67.96628
+MINI CROSS>      -112.26704      0.00000      0.00000      0.00000
+MINI EXTERN>    -1038.04402  -9086.03065      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       450
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.05 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042459 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83672 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      450  -4025.48921      0.79189      0.27260      0.00293
+MINI INTERN>      482.21943   1476.78356     89.84106   4094.72183     67.89895
+MINI CROSS>      -112.33843      0.00000      0.00000      0.00000
+MINI EXTERN>    -1038.53583  -9086.07978      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      460  -4026.98869      1.49948      0.31520      0.00789
+MINI INTERN>      483.11097   1475.66422     89.60540   4094.50698     67.86196
+MINI CROSS>      -112.41858      0.00000      0.00000      0.00000
+MINI EXTERN>    -1038.05915  -9087.26049      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      470  -4028.67787      1.68917      0.27885      0.00764
+MINI INTERN>      483.17202   1474.74489     89.43727   4094.36406     67.98911
+MINI CROSS>      -112.51365      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.74191  -9088.12965      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      480  -4029.86030      1.18243      0.28276      0.00444
+MINI INTERN>      482.99593   1473.81180     89.24603   4094.41125     68.11742
+MINI CROSS>      -112.63686      0.00000      0.00000      0.00000
+MINI EXTERN>    -1037.06696  -9088.73890      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      490  -4031.11805      1.25775      0.29633      0.00716
+MINI INTERN>      483.06111   1472.33262     89.14551   4094.24635     68.02220
+MINI CROSS>      -112.62977      0.00000      0.00000      0.00000
+MINI EXTERN>    -1036.00053  -9089.29554      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       500
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.02 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042424 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83673 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      500  -4033.61422      2.49617      0.28478      0.01157
+MINI INTERN>      483.23151   1472.01507     89.36837   4093.65087     68.11122
+MINI CROSS>      -112.66285      0.00000      0.00000      0.00000
+MINI EXTERN>    -1036.00879  -9091.31963      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      510  -4035.43332      1.81910      0.28223      0.00672
+MINI INTERN>      482.91624   1473.21166     89.56777   4093.17661     68.18233
+MINI CROSS>      -112.74034      0.00000      0.00000      0.00000
+MINI EXTERN>    -1036.05036  -9093.69725      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      520  -4036.42311      0.98978      0.29314      0.00391
+MINI INTERN>      482.91505   1473.59768     89.57728   4092.83970     68.21865
+MINI CROSS>      -112.81797      0.00000      0.00000      0.00000
+MINI EXTERN>    -1035.38077  -9095.37272      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      530  -4037.86255      1.43944      0.26640      0.00631
+MINI INTERN>      483.35756   1473.08779     89.44239   4092.40072     68.21864
+MINI CROSS>      -112.85637      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.64241  -9096.87087      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      540  -4039.09180      1.22925      0.26388      0.00366
+MINI INTERN>      483.48177   1472.93403     89.37877   4092.25520     68.20072
+MINI CROSS>      -112.99529      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.11738  -9098.22962      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       550
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.01 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042401 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83679 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      550  -4039.56557      0.47377      0.26780      0.00213
+MINI INTERN>      483.42737   1473.02103     89.40536   4092.31395     68.21304
+MINI CROSS>      -113.04482      0.00000      0.00000      0.00000
+MINI EXTERN>    -1033.88678  -9099.01472      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      560  -4039.87296      0.30739      0.26247      0.00124
+MINI INTERN>      483.52938   1473.20585     89.38899   4092.38092     68.22994
+MINI CROSS>      -113.07396      0.00000      0.00000      0.00000
+MINI EXTERN>    -1033.76609  -9099.76799      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      570  -4040.34003      0.46707      0.29425      0.00200
+MINI INTERN>      483.47961   1473.24120     89.36747   4092.42116     68.25628
+MINI CROSS>      -113.07652      0.00000      0.00000      0.00000
+MINI EXTERN>    -1033.82402  -9100.20522      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      580  -4041.13725      0.79722      0.24421      0.00322
+MINI INTERN>      483.45554   1472.93505     89.35117   4092.27013     68.23435
+MINI CROSS>      -113.05278      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.29834  -9100.03237      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      590  -4041.41111      0.27386      0.24388      0.00112
+MINI INTERN>      483.20421   1473.04279     89.34384   4092.21872     68.23530
+MINI CROSS>      -113.05411      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.35227  -9100.04958      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+ UPDECI: Nonbond update at step       600
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.01 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042365 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83674 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+MINI>      600  -4041.49791      0.08680      0.24920      0.00039
+MINI INTERN>      483.17970   1473.07369     89.35685   4092.21487     68.24816
+MINI CROSS>      -113.06888      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.37050  -9100.13181      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+MINI>      610  -4041.52890      0.03099      0.24569      0.00014
+MINI INTERN>      483.16748   1473.12717     89.37026   4092.22050     68.25925
+MINI CROSS>      -113.08114      0.00000      0.00000      0.00000
+MINI EXTERN>    -1034.38230  -9100.21010      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ ABNER> Minimization exiting with function tolerance ( 0.0010000) satisfied.
+
+ABNR MIN: Cycle      ENERgy      Delta-E         GRMS    Step-size
+ABNR INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+ABNR CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+ABNR EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+ABNR>      618  -4041.54089      0.01199      0.24747      0.00005
+ABNR INTERN>      483.16106   1473.16455     89.37555   4092.22540     68.26664
+ABNR CROSS>      -113.09150      0.00000      0.00000      0.00000
+ABNR EXTERN>    -1034.38406  -9100.25853      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+
+ NONBOND OPTION FLAGS: 
+     ELEC     VDW      ATOMs    CDIElec  FSWItch  VATOm    VFSWIt  
+     BYGRoup  NOEXtnd  NOEWald 
+ CUTNB  = 10.000 CTEXNB =999.000 CTONNB =  8.000 CTOFNB =  7.000
+ CGONNB =  0.000 CGOFNB = 10.000
+ WMIN   =  1.500 WRNMXD =  0.500 E14FAC =  1.000 EPS    =  1.000
+ NBXMOD =      5
+ There are  1042365 atom  pairs and    39388 atom  exclusions.
+ There are        0 group pairs and     5981 group exclusions.
+ GTNBCT> CUTNB,CTOFNB,CTONNB=      10.0       7.0       8.0
+
+      ***** LEVEL  1 WARNING FROM <GTNBCT> *****
+      ***** CUTNB,CTOFNB,CTONNB are not in correct order.
+      ******************************************
+      BOMLEV (  0) IS NOT REACHED. WRNLEV IS  5
+
+ Generating nonbond list with Exclusion mode = 5
+ == PRIMARY == SPACE FOR  1125812 ATOM PAIRS AND        0 GROUP PAIRS
+Arguments:
+substrate_pdb /home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.pdb
+substrate_str /home/azamh/workspace/anc_acyl/r_substrate/substrate/r_substrate.str
+protein_pdb /home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester/anc452_5cthioester.pdb
+protein_psf /home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester/anc452_5cthioester.psf
+C5_str /home/azamh/workspace/anc_acyl/add_5cthioester/5cthioester.str
+output_pdb /home/azamh/workspace/anc_acyl/r_substrate/add_substrate/output/anc452_5cthioester_r_substrate.pdb
+output_psf /home/azamh/workspace/anc_acyl/r_substrate/add_substrate/output/anc452_5cthioester_r_substrate.psf
+C5_segname 5CT1
+toppar_dir /home/azamh/workspace/anc_acyl/toppar
+CHARMM_LIB_DIR /home/azamh/charmm/pycharmm_2024/pycharmm_install/lib
+nstep_sd 200
+nstep_abnr 1000
+protein_segname PROA
+substrate_segname LIGA
+all atoms: 7167
+protein atoms: 3518
+5cthioester atoms: 67
+substrate atoms: 34
+backbone atoms 1832
+flexible residues around substrate_sel atoms: 607
+flexible residues sidechains around substrate_sel atoms: 459
+ NBONDA>>  Maximum group spatial extent (12A) exceeded.
+   Size is       16.01 Angstroms and starts with atom:    7067
+   Please check group boundary definitions.
+
+ General atom nonbond list generation found:
+  1042377 ATOM PAIRS WERE FOUND FOR ATOM LIST
+    83677 GROUP PAIRS REQUIRED ATOM SEARCHES
+
+ PRNHBD: CUToff Hydrogen Bond  distance =    0.5000   Angle =   90.0000
+         CuT switching ON HB dist. =     3.5000  OFf HB dist. =    4.0000
+         CuT switching ON Hb Angle =    50.0000  OFf Hb Angle =   70.0000
+         ACCEptor antecedents included
+         All hydrogen bonds for each hydrogen will be found
+         Hydrogen bonds between excluded atoms will be kept
+
+ENER ENR:  Eval#     ENERgy      Delta-E         GRMS
+ENER INTERN:          BONDs       ANGLes       UREY-b    DIHEdrals    IMPRopers
+ENER CROSS:           CMAPs        PMF1D        PMF2D        PRIMO
+ENER EXTERN:        VDWaals         ELEC       HBONds          ASP         USER
+ ----------       ---------    ---------    ---------    ---------    ---------
+ENER>        0  -4041.54089      0.01199      0.24747
+ENER INTERN>      483.16106   1473.16455     89.37555   4092.22540     68.26664
+ENER CROSS>      -113.09150      0.00000      0.00000      0.00000
+ENER EXTERN>    -1034.38406  -9100.25853      0.00000      0.00000      0.00000
+ ----------       ---------    ---------    ---------    ---------    ---------
+  
+ CHARMM>     write name /home/azamh/workspace/anc_acyl/r_substrate/add_substrate/output/anc452_5cthioester_r_substrate.pdb -
+ CHARMM>     coor pdb
+ VOPEN> Attempting to open::/home/azamh/workspace/anc_acyl/r_substrate/add_substrate/output/anc452_5cthioester_r_substrate.pdb::
+ RDTITL>  
+ RDTITL> No title read.
+  Write CHARMM-pdb format
+ VCLOSE: Closing unit   91 with status "KEEP"
+  
+ CHARMM>     
+  
+$$$$$$  New timer profile $$$$$
+      NBONDS                          0.46 Other:            0.00
+   List time                       0.69 Other:            0.22
+      Nonbond force                   6.96 Other:            0.00
+         Bond energy                     0.06 Other:            0.00
+         Angle energy                    0.54 Other:            0.00
+         Dihedral energy                 0.98 Other:            0.00
+         Restraints energy               0.00 Other:            0.00
+      INTRNL energy                   1.60 Other:            0.01
+   Energy time                     8.59 Other:            0.03
+ Total time                     12.33 Other:            3.06
+
+                    NORMAL TERMINATION BY NORMAL STOP
+                    MOST SEVERE WARNING WAS AT LEVEL  0
+
+                    $$$$$ JOB ACCOUNTING INFORMATION $$$$$
+                     ELAPSED TIME:    12.33  SECONDS 
+                         CPU TIME:    12.20  SECONDS 
